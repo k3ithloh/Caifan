@@ -213,11 +213,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/keithloh/RiderProjects/Caifan/Caifan.csproj",
+      "projectUniqueName": "/Users/keithloh/Documents/GitHub/Heap/Caifan/Caifan.csproj",
       "projectName": "Caifan",
-      "projectPath": "/Users/keithloh/RiderProjects/Caifan/Caifan.csproj",
+      "projectPath": "/Users/keithloh/Documents/GitHub/Heap/Caifan/Caifan.csproj",
       "packagesPath": "/Users/keithloh/.nuget/packages/",
-      "outputPath": "/Users/keithloh/RiderProjects/Caifan/obj/",
+      "outputPath": "/Users/keithloh/Documents/GitHub/Heap/Caifan/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/keithloh/.nuget/NuGet/NuGet.Config"
