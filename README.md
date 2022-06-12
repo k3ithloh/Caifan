@@ -35,3 +35,19 @@ git push origin <branch name>
 ## Link to Git CLI Comments
 >http://guides.beanstalkapp.com/version-control/common-git-commands.html
 
+## Backend server setup
+
+**1 - Start up Database Server:**  
+Server - <a href="https://www.sqlshack.com/setting-up-a-postgresql-database-on-mac/">postgresql</a>  
+Recommended GUI - <a href="https://dbeaver.io/download/">DBeaver</a>  
+After setting up a new database connection, create a new database ```caifan``` 
+
+**2 - Migrate DB**  
+Do this whenever you add new modals/ entity relations/ attributes  
+```dotnet ef migrations add <migration_name>```
+
+**3 - Update DB**  
+```dotnet ef database update```  
+This runs the migration file created in the step before and updates the schema where needed.
+
+
