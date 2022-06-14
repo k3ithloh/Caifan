@@ -60,6 +60,7 @@ namespace Caifan.Controllers
             module.UniversityName = request.UniversityName;
             module.LinkToCourseOutline = request.LinkToCourseOutline;
             module.Description = request.Description;
+            module.Faculty = request.Faculty;
             module.Credits = request.Credits;
             module.Universities = request.Universities;
             
