@@ -18,6 +18,6 @@ public class Review
     // public string ReviewTitle { get; set; } = string.Empty;
     public string UniversityName { get; set; } = string.Empty;
     
-    public virtual University UniversitieName { get; set; }
+    public virtual University UniversityName { get; set; }
     public virtual User User { get; set; }
 }

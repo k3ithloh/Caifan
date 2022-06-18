@@ -11,20 +11,21 @@ namespace Caifan.Controllers
     {
         private readonly DataContext _context;
         
+        // constructor
         public RegionController(DataContext context)
         {
             _context = context;
         }
 
 
-        //This is to get all Regions
+        // Get all Regions
         [HttpGet]
         public async Task<ActionResult<List<Region>>> Get()
         {
             return Ok(await _context.Regions.ToListAsync());
         }
         
-        //This is to get a single row out
+        // Get a Region based on a given Region ID (regionid)
         [HttpGet("{regionid}")]
         public async Task<ActionResult<Region>> Get(string regionid)
         {
@@ -34,7 +35,7 @@ namespace Caifan.Controllers
             return Ok(region);
         }
         
-        //This is to add new rows into the Database
+        // Add a new Region
         [HttpPost]
         public async Task<ActionResult<List<Region>>> AddRegion([FromBody] Region region)
         {
@@ -44,22 +45,23 @@ namespace Caifan.Controllers
             return Ok(await _context.Regions.ToListAsync());
         }
         
-        //This is to update a row in the Database
+        // Update a Region fields
         [HttpPut]
-        public async Task<ActionResult<List<Region>>> UpdateBasket(Region request)
+        public async Task<ActionResult<List<Region>>> UpdateRegion(Region request)
         {
             var dbRegion = await _context.Regions.FindAsync(request.RegionId);
             if (dbRegion == null)
                 return BadRequest("Region not found.");
             dbRegion.RegionId = request.RegionId;
             dbRegion.RegionName = request.RegionName;
+            dbRegion.Universities = request.Universities;
             
             await _context.SaveChangesAsync();
             
             return Ok(await _context.Regions.ToListAsync());
         }
         
-        //This is to delete a row in the Database
+        // Delete a Region based on a given Region ID (regionid)
         [HttpDelete("{regionid}")]
         public async Task<ActionResult<List<Region>>> Delete(string regionid)
         {

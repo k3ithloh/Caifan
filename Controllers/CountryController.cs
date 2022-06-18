@@ -11,20 +11,21 @@ namespace Caifan.Controllers
     {
         private readonly DataContext _context;
         
+        // constructor
         public CountryController(DataContext context)
         {
             _context = context;
         }
 
 
-        //This is to get all Countries
+        // Get all Countries
         [HttpGet]
         public async Task<ActionResult<List<Country>>> Get()
         {
             return Ok(await _context.Countries.ToListAsync());
         }
         
-        //This is to get a single row out
+        // Get a Country based on a given Country ID (cid)
         [HttpGet("{countryid}")]
         public async Task<ActionResult<Country>> Get(string countryid)
         {
@@ -34,7 +35,7 @@ namespace Caifan.Controllers
             return Ok(country);
         }
         
-        //This is to add new rows into the Database
+        // Add a new Country
         [HttpPost]
         public async Task<ActionResult<List<Country>>> AddCountry([FromBody] Country country)
         {
@@ -44,7 +45,7 @@ namespace Caifan.Controllers
             return Ok(await _context.Countries.ToListAsync());
         }
         
-        //This is to update a row in the Database
+        // Update a Country fields
         [HttpPut]
         public async Task<ActionResult<List<Country>>> UpdateBasket(Country request)
         {
@@ -53,13 +54,14 @@ namespace Caifan.Controllers
                 return BadRequest("Country not found.");
             dbCountry.CountryId = request.CountryId;
             dbCountry.CountryName = request.CountryName;
+            dbCountry.Universities = request.Universities;
             
             await _context.SaveChangesAsync();
             
             return Ok(await _context.Countries.ToListAsync());
         }
         
-        //This is to delete a row in the Database
+        // Delete a Country based on a given Country ID (bid)
         [HttpDelete("{countryid}")]
         public async Task<ActionResult<List<Country>>> Delete(string countryid)
         {

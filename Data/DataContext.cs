@@ -7,6 +7,7 @@ public class DataContext : DbContext
 {
     public DataContext(DbContextOptions<DataContext> options) : base(options) { }
     
+    // Creates database tables
     // Degree points to the Degree.cs in models, Degrees refer to the table name in DB
     public DbSet<Degree> Degrees { get; set; }
     public DbSet<Country> Countries { get; set; }
@@ -19,12 +20,21 @@ public class DataContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        // Relationships for University
         modelBuilder.Entity<University>()
-            .ToTable("University")
-            .HasRequired(u => u.Region)
+            .HasOne(u => u.Region)
             .WithMany(r => r.Universities)
-            .HasForeignKey(u => u.RegionId)
-            .willCascadeOnDelete(false);
+            .HasForeignKey(u => u.RegionId);
+
+        modelBuilder.Entity<University>()
+            .HasOne(u => u.Country)
+            .WithMany(r => r.Universities)
+            .HasForeignKey(u => u.CountryId);
+        
+        modelBuilder.Entity<University>()
+            .HasMany(u => u.ApplicableDegree)
+            .WithMany(d => d.Universities)
+            
 
         modelBuilder.Entity<University>()
             .ToTable("University")

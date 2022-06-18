@@ -4,6 +4,7 @@ namespace Caifan.Models;
 
 public class Module
 {
+    // note that Module has composite key (ModuleId, UniversityName) as two Universities might have the same ModuleId by chance
     [Key]
     public int ModuleId { get; set; }
     public string ModuleName { get; set; } = string.Empty;
@@ -14,9 +15,7 @@ public class Module
     public string Description { get; set; } = string.Empty;
     public string Faculty { get; set; } = string.Empty;
     public int Credits { get; set; }
-    
-    //This should 
-    public virtual University Universities { get; set; }
-    public virtual Basket Baskets { get; set; }
+    public ICollection<University>? Universities { get; set; }
+    public ICollection<Basket>? Baskets { get; set; }
 }
 

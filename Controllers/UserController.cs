@@ -1,3 +1,4 @@
+using Caifan.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -59,8 +60,8 @@ namespace Caifan.Controllers
             user.Email = request.Email;
             user.MobileNo = request.MobileNo;
             user.PasswordEncrypt = request.PasswordEncrypt;
-            user.MajorId = request.MajorId;
-            user.SecondMajorId = request.SecondMajorId;
+            user.FirstDegree = request.FirstDegree;
+            user.SecondDegree = request.SecondDegree;
             user.Reviews = request.Reviews;
 
             await _context.SaveChangesAsync();

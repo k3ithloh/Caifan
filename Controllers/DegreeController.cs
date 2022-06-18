@@ -11,20 +11,21 @@ namespace Caifan.Controllers
     {
         private readonly DataContext _context;
         
+        // constructor
         public DegreeController(DataContext context)
         {
             _context = context;
         }
 
 
-        //This is to get all degrees
+        // Get all Degrees
         [HttpGet]
         public async Task<ActionResult<List<Degree>>> Get()
         {
             return Ok(await _context.Degrees.ToListAsync());
         }
         
-        //This is to get a single row out
+        // Get a Degree based on a given Degree ID (bid)
         [HttpGet("{degreeid}")]
         public async Task<ActionResult<Degree>> Get(string degreeid)
         {
@@ -34,7 +35,7 @@ namespace Caifan.Controllers
             return Ok(degree);
         }
         
-        //This is to add new rows into the Database
+        // Add a new Degree
         [HttpPost]
         public async Task<ActionResult<List<Degree>>> AddMajor([FromBody] Degree degree)
         {
@@ -44,22 +45,24 @@ namespace Caifan.Controllers
             return Ok(await _context.Degrees.ToListAsync());
         }
         
-        //This is to update a row in the Database
+        // Update a Degree fields
         [HttpPut]
-        public async Task<ActionResult<List<Degree>>> UpdateBasket(Degree request)
+        public async Task<ActionResult<List<Degree>>> UpdateDegree(Degree request)
         {
             var dbDegree = await _context.Degrees.FindAsync(request.DegreeId);
             if (dbDegree == null)
                 return BadRequest("Degree not found.");
             dbDegree.DegreeId = request.DegreeId;
             dbDegree.DegreeName = request.DegreeName;
+            dbDegree.Users = request.Users;
+            dbDegree.Universities = request.Universities;
             
             await _context.SaveChangesAsync();
             
             return Ok(await _context.Degrees.ToListAsync());
         }
         
-        //This is to delete a row in the Database
+        // Delete a Degree based on a given Degree ID (degreeid)
         [HttpDelete("{degreeid}")]
         public async Task<ActionResult<List<Degree>>> Delete(string degreeid)
         {

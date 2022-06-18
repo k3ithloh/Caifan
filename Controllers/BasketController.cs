@@ -57,6 +57,7 @@ namespace Caifan.Controllers
             
             basket.BasketId = request.BasketId;
             basket.BasketName = request.BasketName;
+            basket.Modules = request.Modules;
             
             await _context.SaveChangesAsync();
             

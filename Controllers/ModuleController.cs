@@ -64,6 +64,7 @@ namespace Caifan.Controllers
             module.Faculty = request.Faculty;
             module.Credits = request.Credits;
             module.Universities = request.Universities;
+            module.Baskets = request.Baskets;
             
             await _context.SaveChangesAsync();
             

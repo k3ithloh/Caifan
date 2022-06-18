@@ -43,8 +43,8 @@ public class University
     
     public bool Visa { get; set; }
     
-    [ForeignKey(("ApplicableDegree"))]
-    public string ApplicableDegree { get; set; } = string.Empty;
+    // [ForeignKey(("ApplicableDegree"))]
+    public ICollection<Degree>? Degrees { get; set; }
     
     public string HostUniversityWebsite { get; set; } = string.Empty;
     
