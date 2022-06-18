@@ -1,3 +1,4 @@
+using Caifan.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -58,9 +59,7 @@ namespace Caifan.Controllers
             review.Rating = request.Rating;
             review.UserId = request.UserId;
             review.Timestamp = request.Timestamp;
-            review.Pros = request.Pros;
-            review.Cons = request.Cons;
-            review.ReviewTitle = request.ReviewTitle;
+            review.Description = request.Description;
             review.UniversityName = request.UniversityName;
             
             await _context.SaveChangesAsync();
