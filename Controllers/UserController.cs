@@ -16,14 +16,12 @@ namespace Caifan.Controllers
             _context = context;
         }
         
-        
         // Get all Users
         [HttpGet]
         public async Task<ActionResult<List<User>>> Get()
         {
             return Ok(await _context.Users.ToListAsync());
         }
-        
         
         // Get a User based on a given User ID (uid)
         [HttpGet("{uid}")]
@@ -34,8 +32,7 @@ namespace Caifan.Controllers
                 return BadRequest("User not found.");
             return Ok(user);
         }
-        
-        
+
         // Add a new User
         [HttpPost]
         public async Task<ActionResult<List<User>>> AddUser(User user)
@@ -45,8 +42,7 @@ namespace Caifan.Controllers
             
             return Ok(await _context.Users.ToListAsync());
         }
-        
-        
+
         // Update a User fields
         [HttpPut]
         public async Task<ActionResult<List<User>>> UpdateUser(User request)
@@ -68,7 +64,6 @@ namespace Caifan.Controllers
             
             return Ok(await _context.Users.ToListAsync());
         }
-        
         
         // Delete a User based on a given User ID (uid)
         [HttpDelete("{uid}")]
