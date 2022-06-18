@@ -42,8 +42,6 @@ public class DataContext : DbContext
         modelBuilder.Entity<Module>()
             .HasKey(m => new {m.ModuleId,m.UniversityName});
         
-
-        
         //Relationships for Basket
 
     }
