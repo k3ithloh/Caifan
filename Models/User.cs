@@ -17,7 +17,7 @@ public class User
     [ForeignKey("SecondDegree")]
     public string SecondDegreeId { get; set; } = string.Empty;
     
-    // [Required] - to add when keith push major code
+    // One to many rs with Degree
     public virtual Degree FirstDegree { get; set; }
     public virtual Degree SecondDegree { get; set; }
     

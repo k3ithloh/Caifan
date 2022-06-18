@@ -43,9 +43,6 @@ public class University
     
     public bool Visa { get; set; }
     
-    // [ForeignKey(("ApplicableDegree"))]
-    public ICollection<Degree>? Degrees { get; set; }
-    
     public string HostUniversityWebsite { get; set; } = string.Empty;
     
     public string HostUniversityExchangeWebsite { get; set; } = string.Empty;
@@ -60,6 +57,8 @@ public class University
     
     public DateTime ApplicationDeadline { get; set; }
 
+    // [ForeignKey(("ApplicableDegree"))]
+    public ICollection<Degree>? Degrees { get; set; }
     public ICollection<Module>? Modules { get; set; }
     public ICollection<Review>? Reviews { get; set; }
 }

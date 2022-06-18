@@ -24,7 +24,6 @@ namespace Caifan.Controllers
             return Ok(await _context.Modules.ToListAsync());
         }
         
-        
         // Get a Module based on a given Module ID (mid)
         [HttpGet("{mid}")]
         public async Task<ActionResult<List<Module>>> Get(int mid)
@@ -34,8 +33,7 @@ namespace Caifan.Controllers
                 return BadRequest("Module not found.");
             return Ok(module);
         }
-        
-        
+
         // Add a new Module
         [HttpPost]
         public async Task<ActionResult<List<Module>>> AddModule(Module module)
@@ -45,7 +43,6 @@ namespace Caifan.Controllers
             
             return Ok(await _context.Modules.ToListAsync());
         }
-        
         
         // Update a Module fields
         [HttpPut]
@@ -63,7 +60,7 @@ namespace Caifan.Controllers
             module.Description = request.Description;
             module.Faculty = request.Faculty;
             module.Credits = request.Credits;
-            module.Universities = request.Universities;
+            module.University = request.University;
             module.Baskets = request.Baskets;
             
             await _context.SaveChangesAsync();

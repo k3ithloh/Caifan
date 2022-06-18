@@ -25,10 +25,8 @@
 /Users/keithloh/Documents/GitHub/Heap/Caifan/obj/Debug/net6.0/Caifan.pdb
 /Users/keithloh/Documents/GitHub/Heap/Caifan/obj/Debug/net6.0/Caifan.genruntimeconfig.cache
 /Users/keithloh/Documents/GitHub/Heap/Caifan/obj/Debug/net6.0/ref/Caifan.dll
-/Users/keithloh/Documents/GitHub/Heap/Caifan/bin/Debug/net6.0/Humanizer.dll
 /Users/keithloh/Documents/GitHub/Heap/Caifan/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
 /Users/keithloh/Documents/GitHub/Heap/Caifan/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
-/Users/keithloh/Documents/GitHub/Heap/Caifan/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
 /Users/keithloh/Documents/GitHub/Heap/Caifan/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
 /Users/keithloh/Documents/GitHub/Heap/Caifan/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
 /Users/keithloh/Documents/GitHub/Heap/Caifan/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
@@ -39,10 +37,8 @@
 /Users/keithloh/Documents/GitHub/Heap/Caifan/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
 /Users/keithloh/Documents/GitHub/Heap/Caifan/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
 /Users/keithloh/Documents/GitHub/Heap/Caifan/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
-/Users/keithloh/Documents/GitHub/Heap/Caifan/bin/Debug/net6.0/Mono.TextTemplating.dll
 /Users/keithloh/Documents/GitHub/Heap/Caifan/bin/Debug/net6.0/Npgsql.dll
 /Users/keithloh/Documents/GitHub/Heap/Caifan/bin/Debug/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
-/Users/keithloh/Documents/GitHub/Heap/Caifan/bin/Debug/net6.0/System.CodeDom.dll
 /Users/cherylperyl/Documents/HEAP/Caifan/obj/Debug/net6.0/Caifan.csproj.AssemblyReference.cache
 /Users/cherylperyl/Documents/HEAP/Caifan/obj/Debug/net6.0/Caifan.GeneratedMSBuildEditorConfig.editorconfig
 /Users/cherylperyl/Documents/HEAP/Caifan/obj/Debug/net6.0/Caifan.AssemblyInfoInputs.cache
@@ -84,3 +80,10 @@
 /Users/cherylperyl/Documents/HEAP/Caifan/obj/Debug/net6.0/Caifan.csproj.CopyComplete
 /Users/cherylperyl/Documents/HEAP/Caifan/obj/Debug/net6.0/Caifan.genruntimeconfig.cache
 /Users/cherylperyl/Documents/HEAP/Caifan/obj/Debug/net6.0/ref/Caifan.dll
+/Users/keithloh/Documents/GitHub/Heap/Caifan/bin/Debug/net6.0/Microsoft.DotNet.PlatformAbstractions.dll
+/Users/keithloh/Documents/GitHub/Heap/Caifan/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/keithloh/Documents/GitHub/Heap/Caifan/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/keithloh/Documents/GitHub/Heap/Caifan/bin/Debug/net6.0/Humanizer.dll
+/Users/keithloh/Documents/GitHub/Heap/Caifan/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/keithloh/Documents/GitHub/Heap/Caifan/bin/Debug/net6.0/Mono.TextTemplating.dll
+/Users/keithloh/Documents/GitHub/Heap/Caifan/bin/Debug/net6.0/System.CodeDom.dll

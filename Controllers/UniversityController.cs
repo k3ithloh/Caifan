@@ -56,7 +56,9 @@ namespace Caifan.Controllers
             dbUniversity.WorldRanking = request.WorldRanking;
             dbUniversity.Description = request.Description;
             dbUniversity.RegionId = request.RegionId;
+            dbUniversity.Region = request.Region;
             dbUniversity.CountryId = request.CountryId;
+            dbUniversity.Country = request.Country;
             dbUniversity.Address = request.Address;
             dbUniversity.AcademicCalendar = request.AcademicCalendar;
             dbUniversity.AcademicCalendarLink = request.AcademicCalendarLink;
@@ -68,7 +70,7 @@ namespace Caifan.Controllers
             dbUniversity.Accommodation = request.Accommodation;
             dbUniversity.Insurance = request.Insurance;
             dbUniversity.Visa = request.Visa;
-            dbUniversity.ApplicableDegree = request.ApplicableDegree;
+            // dbUniversity.ApplicableDegree = request.ApplicableDegree;
             dbUniversity.HostUniversityWebsite = request.HostUniversityWebsite;
             dbUniversity.HostUniversityExchangeWebsite = request.HostUniversityExchangeWebsite;
             dbUniversity.CourseCatalogLink = request.CourseCatalogLink;
@@ -76,6 +78,9 @@ namespace Caifan.Controllers
             dbUniversity.CreditLoadMax = request.CreditLoadMax;
             dbUniversity.CreditTransferRate = request.CreditTransferRate;
             dbUniversity.ApplicationDeadline = request.ApplicationDeadline;
+            dbUniversity.Degrees = request.Degrees;
+            dbUniversity.Reviews = request.Reviews;
+            dbUniversity.Modules = request.Modules;
 
             await _context.SaveChangesAsync();
             

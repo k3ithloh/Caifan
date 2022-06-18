@@ -31,19 +31,21 @@ public class DataContext : DbContext
             .WithMany(r => r.Universities)
             .HasForeignKey(u => u.CountryId);
         
-        modelBuilder.Entity<University>()
-            .HasMany(u => u.ApplicableDegree)
-            .WithMany(d => d.Universities)
+        //Relationships for Module
+        // Module one to many rs with University
+        modelBuilder.Entity<Module>()
+            .HasOne(m => m.University)
+            .WithMany(u => u.Modules)
+            .HasForeignKey(m => m.UniversityName);
             
-
-        modelBuilder.Entity<University>()
-            .ToTable("University")
-            .HasRequired(u => u.Country)
-            .WithMany(c => c.Universities)
-            .HasForeignKey(u => u.CountryId)
-            .willCascadeOnDelete(false);
+        //Composite primary key of ModuleId and UniversityName
+        modelBuilder.Entity<Module>()
+            .HasKey(m => new {m.ModuleId,m.UniversityName});
         
-        // modelBuilder.Entity<>()
+
+        
+        //Relationships for Basket
+
     }
 
 

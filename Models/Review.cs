@@ -9,15 +9,10 @@ public class Review
     public int Rating { get; set; }
     public int UserId { get; set; }
     public string Timestamp { get; set; } = string.Empty;
-    //To remove once we confirm
-    // public string Pros { get; set; } = string.Empty;
-    // public string Cons { get; set; } = string.Empty;
-    
     public string Description { get; set; } = string.Empty;
-    
     // public string ReviewTitle { get; set; } = string.Empty;
     public string UniversityName { get; set; } = string.Empty;
     
-    public virtual University UniversityName { get; set; }
+    public virtual University University { get; set; }
     public virtual User User { get; set; }
 }

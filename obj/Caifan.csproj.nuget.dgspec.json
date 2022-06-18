@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/cherylperyl/Documents/HEAP/Caifan/Caifan.csproj": {}
+    "/Users/keithloh/Documents/GitHub/Heap/Caifan/Caifan.csproj": {}
   },
   "projects": {
-    "/Users/cherylperyl/Documents/HEAP/Caifan/Caifan.csproj": {
+    "/Users/keithloh/Documents/GitHub/Heap/Caifan/Caifan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/cherylperyl/Documents/HEAP/Caifan/Caifan.csproj",
+        "projectUniqueName": "/Users/keithloh/Documents/GitHub/Heap/Caifan/Caifan.csproj",
         "projectName": "Caifan",
-        "projectPath": "/Users/cherylperyl/Documents/HEAP/Caifan/Caifan.csproj",
-        "packagesPath": "/Users/cherylperyl/.nuget/packages/",
-        "outputPath": "/Users/cherylperyl/Documents/HEAP/Caifan/obj/",
+        "projectPath": "/Users/keithloh/Documents/GitHub/Heap/Caifan/Caifan.csproj",
+        "packagesPath": "/Users/keithloh/.nuget/packages/",
+        "outputPath": "/Users/keithloh/Documents/GitHub/Heap/Caifan/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/cherylperyl/.nuget/NuGet/NuGet.Config"
+          "/Users/keithloh/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -38,11 +38,35 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.0-preview.5.22302.2, )"
             },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0-preview.5.22302.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[7.0.0-preview.5.22302.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0-preview.5.22302.2, )"
+            },
             "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.0-preview.5.22302.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.0-preview.5.22302.2, )"
             },
