@@ -17,33 +17,46 @@ public class DataContext : DbContext
     public DbSet<Review> Reviews { get; set; }
     public DbSet<User> Users { get; set; }
     public DbSet<Module> Modules { get; set; }
+    public DbSet<DegreeUser> DegreeUser { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        // ============================
         // Relationships for University
+        
+        // One-to-many rs with Region
         modelBuilder.Entity<University>()
             .HasOne(u => u.Region)
             .WithMany(r => r.Universities)
             .HasForeignKey(u => u.RegionId);
 
+        // One-to-many rs with Country
         modelBuilder.Entity<University>()
             .HasOne(u => u.Country)
             .WithMany(r => r.Universities)
             .HasForeignKey(u => u.CountryId);
         
+        
+        // =======================
         //Relationships for Module
-        // Module one to many rs with University
+        
+        // One-to-many rs with University
         modelBuilder.Entity<Module>()
             .HasOne(m => m.University)
             .WithMany(u => u.Modules)
             .HasForeignKey(m => m.UniversityName);
-            
-        //Composite primary key of ModuleId and UniversityName
-        modelBuilder.Entity<Module>()
-            .HasKey(m => new {m.ModuleId,m.UniversityName});
         
-        //Relationships for Basket
 
+        // ==============
+        // Composite keys
+        
+        //Composite primary key in Module
+        modelBuilder.Entity<Module>()
+            .HasKey(m => new { m.ModuleId, m.UniversityName });
+        
+        //Composite primary key in DegreeUser
+        modelBuilder.Entity<DegreeUser>()
+            .HasKey(du => new { du.DegreeId, du.UserId });
     }
 
 

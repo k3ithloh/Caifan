@@ -60,8 +60,6 @@ namespace Caifan.Controllers
             user.Email = request.Email;
             user.MobileNo = request.MobileNo;
             user.PasswordEncrypt = request.PasswordEncrypt;
-            user.FirstDegree = request.FirstDegree;
-            user.SecondDegree = request.SecondDegree;
             user.Reviews = request.Reviews;
 
             await _context.SaveChangesAsync();
