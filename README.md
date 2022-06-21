@@ -2,10 +2,11 @@
 
 University Exchange for Students
 
-Requirement
+Requirements
 -----------
 - C#
 - .Net
+- postgresql
 
 ## Project Setup
 
