@@ -3,6 +3,7 @@ using System;
 using Caifan.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,10 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Caifan.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20220618175718_migration1")]
+    partial class migration1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -83,24 +85,6 @@ namespace Caifan.Migrations
                     b.HasKey("DegreeId");
 
                     b.ToTable("Degrees");
-                });
-
-            modelBuilder.Entity("Caifan.Models.DegreeUser", b =>
-                {
-                    b.Property<string>("DegreeId")
-                        .HasColumnType("text");
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("integer");
-
-                    b.Property<bool>("Primary")
-                        .HasColumnType("boolean");
-
-                    b.HasKey("DegreeId", "UserId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("DegreeUser");
                 });
 
             modelBuilder.Entity("Caifan.Models.Module", b =>
@@ -292,6 +276,10 @@ namespace Caifan.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("UserId"));
 
+                    b.Property<string>("DegreeId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("text");
@@ -303,11 +291,19 @@ namespace Caifan.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<string>("SecondDegreeId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<string>("Username")
                         .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("UserId");
+
+                    b.HasIndex("DegreeId");
+
+                    b.HasIndex("SecondDegreeId");
 
                     b.ToTable("Users");
                 });
@@ -340,25 +336,6 @@ namespace Caifan.Migrations
                         .HasForeignKey("ModulesModuleId", "ModulesUniversityName")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("Caifan.Models.DegreeUser", b =>
-                {
-                    b.HasOne("Caifan.Models.Degree", "Degree")
-                        .WithMany()
-                        .HasForeignKey("DegreeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Caifan.Models.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Degree");
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Caifan.Models.Module", b =>
@@ -408,6 +385,25 @@ namespace Caifan.Migrations
                     b.Navigation("Country");
 
                     b.Navigation("Region");
+                });
+
+            modelBuilder.Entity("Caifan.Models.User", b =>
+                {
+                    b.HasOne("Caifan.Models.Degree", "FirstDegree")
+                        .WithMany()
+                        .HasForeignKey("DegreeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Caifan.Models.Degree", "SecondDegree")
+                        .WithMany()
+                        .HasForeignKey("SecondDegreeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("FirstDegree");
+
+                    b.Navigation("SecondDegree");
                 });
 
             modelBuilder.Entity("DegreeUniversity", b =>

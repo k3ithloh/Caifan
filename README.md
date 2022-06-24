@@ -2,52 +2,51 @@
 
 University Exchange for Students
 
-Requirement
+Requirements
 -----------
 - C#
 - .Net
+- postgresql
 
 ## Project Setup
-
 This guide outline the steps needed to start ExchangeLah in a development environment.
-#### Do not work on the Main Branch
 
-- Clone the repository on your development machine.
-
+**1. Clone the repository on your development machine.**
 ```sh
 git clone https://github.com/ExchangeLah-SG/Caifan.git
 ```
 
-## Create new branch and change to the new branch
-
+**2. Set up Backend Server**  
+   Server: [postgresql](https://www.sqlshack.com/setting-up-a-postgresql-database-on-mac/)  
+   Recommended GUI: [DBeaver](https://dbeaver.io/download/)  
+   After setting up a new database connection via DBeaver, create a new database ```caifan```.  
+  
+**3. Migrate DB**  
+Do this whenever you add new modals/ entity relations/ attributes  
 ```sh
-git checkout -b <branch name>
-git push origin <branch name>
+dotnet ef migrations add <migration_name>
 ```
 
-## Commit and push to Github
-
+**4. Update DB**  
+This runs the migration file created in the step before and updates the schema where needed.
 ```sh
+dotnet ef database update
+```
+  
+**5. Populate Data**  
+TBC, check back later :)
+
+## Development Workflow
+**NEVER WORK ON THE MAIN BRANCH**
+```sh
+# Always work on a new branch for each feature you are working on
+git checkout -b <branch name>
+git push origin <branch name>
+
+# commit and push to Github
 git add .
 git commit -m "<commit name>"
 git push origin <branch name>
 ```
-## Link to Git CLI Comments
->http://guides.beanstalkapp.com/version-control/common-git-commands.html
-
-## Backend server setup
-
-**1 - Start up Database Server:**  
-Server - <a href="https://www.sqlshack.com/setting-up-a-postgresql-database-on-mac/">postgresql</a>  
-Recommended GUI - <a href="https://dbeaver.io/download/">DBeaver</a>  
-After setting up a new database connection, create a new database ```caifan``` 
-
-**2 - Migrate DB**  
-Do this whenever you add new modals/ entity relations/ attributes  
-```dotnet ef migrations add <migration_name>```
-
-**3 - Update DB**  
-```dotnet ef database update```  
-This runs the migration file created in the step before and updates the schema where needed.
-
+Click [here](http://guides.beanstalkapp.com/version-control/common-git-commands.html) for more Git CLI commands
 

@@ -3,6 +3,7 @@ using System;
 using Caifan.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,10 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Caifan.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20220621132000_migration2")]
+    partial class migration2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -87,8 +89,8 @@ namespace Caifan.Migrations
 
             modelBuilder.Entity("Caifan.Models.DegreeUser", b =>
                 {
-                    b.Property<string>("DegreeId")
-                        .HasColumnType("text");
+                    b.Property<int>("DegreeId")
+                        .HasColumnType("integer");
 
                     b.Property<int>("UserId")
                         .HasColumnType("integer");
@@ -98,9 +100,7 @@ namespace Caifan.Migrations
 
                     b.HasKey("DegreeId", "UserId");
 
-                    b.HasIndex("UserId");
-
-                    b.ToTable("DegreeUser");
+                    b.ToTable("DegreeUsers");
                 });
 
             modelBuilder.Entity("Caifan.Models.Module", b =>
@@ -327,6 +327,21 @@ namespace Caifan.Migrations
                     b.ToTable("DegreeUniversity");
                 });
 
+            modelBuilder.Entity("DegreeUser", b =>
+                {
+                    b.Property<string>("DegreesDegreeId")
+                        .HasColumnType("text");
+
+                    b.Property<int>("UsersUserId")
+                        .HasColumnType("integer");
+
+                    b.HasKey("DegreesDegreeId", "UsersUserId");
+
+                    b.HasIndex("UsersUserId");
+
+                    b.ToTable("DegreeUser");
+                });
+
             modelBuilder.Entity("BasketModule", b =>
                 {
                     b.HasOne("Caifan.Models.Basket", null)
@@ -340,25 +355,6 @@ namespace Caifan.Migrations
                         .HasForeignKey("ModulesModuleId", "ModulesUniversityName")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("Caifan.Models.DegreeUser", b =>
-                {
-                    b.HasOne("Caifan.Models.Degree", "Degree")
-                        .WithMany()
-                        .HasForeignKey("DegreeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Caifan.Models.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Degree");
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Caifan.Models.Module", b =>
@@ -421,6 +417,21 @@ namespace Caifan.Migrations
                     b.HasOne("Caifan.Models.University", null)
                         .WithMany()
                         .HasForeignKey("UniversitiesUniversityName")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("DegreeUser", b =>
+                {
+                    b.HasOne("Caifan.Models.Degree", null)
+                        .WithMany()
+                        .HasForeignKey("DegreesDegreeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Caifan.Models.User", null)
+                        .WithMany()
+                        .HasForeignKey("UsersUserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
