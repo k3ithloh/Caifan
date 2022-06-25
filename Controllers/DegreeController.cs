@@ -54,7 +54,6 @@ namespace Caifan.Controllers
                 return BadRequest("Degree not found.");
             dbDegree.DegreeId = request.DegreeId;
             dbDegree.DegreeName = request.DegreeName;
-            dbDegree.Universities = request.Universities;
             
             await _context.SaveChangesAsync();
             

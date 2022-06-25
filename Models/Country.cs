@@ -4,6 +4,16 @@ namespace Caifan.Models;
 
 public class Country
 {
+    public Country()
+    {
+    }
+
+    public Country(string countryId, string countryName)
+    {
+        CountryId = countryId;
+        CountryName = countryName;
+    }
+    
     [Key]
     public string CountryId { get; set; } = string.Empty;
 

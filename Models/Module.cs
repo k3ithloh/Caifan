@@ -6,6 +6,21 @@ namespace Caifan.Models;
 
 public class Module
 {
+    public Module()
+    {
+    }
+
+    public Module(int moduleId, string universityName, string moduleName, string faculty, int credits, string linkToCourseOutline = "", string description = "")
+    {
+        ModuleId = moduleId; 
+        UniversityName = universityName; 
+        ModuleName = moduleName; 
+        LinkToCourseOutline = linkToCourseOutline; 
+        Description = description; 
+        Faculty = faculty; 
+        Credits = credits; 
+    }
+    
     // Composite key (ModuleId, UniversityName) is set in DataContext as Composite keys can only be configured using the Fluent API
     public int ModuleId { get; set; }
     
@@ -25,4 +40,14 @@ public class Module
     
     public ICollection<Basket>? Baskets { get; set; }
 }
+
+
+
+
+
+
+
+
+
+
 

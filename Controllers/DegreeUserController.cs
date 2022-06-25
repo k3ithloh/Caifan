@@ -55,8 +55,6 @@ namespace Caifan.Controllers
             dbDegreeUser.UserId = request.UserId;
             dbDegreeUser.DegreeId = request.DegreeId;
             dbDegreeUser.Primary = request.Primary;
-            dbDegreeUser.User = request.User;
-            dbDegreeUser.Degree = request.Degree;
             
             await _context.SaveChangesAsync();
             

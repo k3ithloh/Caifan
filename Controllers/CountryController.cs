@@ -54,7 +54,6 @@ namespace Caifan.Controllers
                 return BadRequest("Country not found.");
             dbCountry.CountryId = request.CountryId;
             dbCountry.CountryName = request.CountryName;
-            dbCountry.Universities = request.Universities;
             
             await _context.SaveChangesAsync();
             

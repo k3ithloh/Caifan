@@ -54,7 +54,6 @@ namespace Caifan.Controllers
                 return BadRequest("Region not found.");
             dbRegion.RegionId = request.RegionId;
             dbRegion.RegionName = request.RegionName;
-            dbRegion.Universities = request.Universities;
             
             await _context.SaveChangesAsync();
             

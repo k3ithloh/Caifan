@@ -4,6 +4,16 @@ namespace Caifan.Models;
 
 public class Region
 {
+    public Region()
+    {
+    }
+
+    public Region(int regionId, string regionName)
+    {
+        RegionId = regionId;
+        RegionName = regionName;
+    }
+    
     [Key]
     public int RegionId { get; set; }
     

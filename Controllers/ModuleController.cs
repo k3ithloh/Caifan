@@ -54,14 +54,11 @@ namespace Caifan.Controllers
 
             module.ModuleId = request.ModuleId;
             module.ModuleName = request.ModuleName;
-            module.BasketId = request.BasketId;
             module.UniversityName = request.UniversityName;
             module.LinkToCourseOutline = request.LinkToCourseOutline;
             module.Description = request.Description;
             module.Faculty = request.Faculty;
             module.Credits = request.Credits;
-            module.University = request.University;
-            module.Baskets = request.Baskets;
             
             await _context.SaveChangesAsync();
             

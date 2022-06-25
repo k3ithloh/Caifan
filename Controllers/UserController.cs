@@ -56,7 +56,6 @@ namespace Caifan.Controllers
             user.Email = request.Email;
             user.MobileNo = request.MobileNo;
             user.PasswordEncrypt = request.PasswordEncrypt;
-            user.Reviews = request.Reviews;
 
             await _context.SaveChangesAsync();
             

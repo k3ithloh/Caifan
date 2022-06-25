@@ -6,6 +6,17 @@ namespace Caifan.Models;
 // Hard coding this model as we want to add an attribute to indicate if the Degree a User has is their primary
 public class DegreeUser
 {
+    public DegreeUser()
+    {
+    }
+
+    public DegreeUser(int userId, string degreeId, bool primary)
+    {
+        UserId = userId;
+        DegreeId = degreeId;
+        Primary = primary;
+    }
+    
     // Composite key is set in DataContext as Composite keys can only be configured using the Fluent API
     [ForeignKey("User")]
     public int UserId { get; set; }
@@ -19,3 +30,4 @@ public class DegreeUser
     
     public Degree Degree { get; set; }
 }
+

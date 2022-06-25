@@ -1,10 +1,49 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using static System.DateTime;
 
 namespace Caifan.Models;
 
 public class University
 {
+    public University()
+    {
+    }
+
+    public University(string universityName, string description, int regionId, string countryId, string address, 
+        string hostUniversityWebsite, int creditTransferRate, string icon = "", int worldRanking = 0, 
+        string academicCalendar = "", string academicCalendarLink = "", float gpaRequirement = 0, 
+        int noOfPlacesSem1 = 0, int noOfPlacesSem2 = 0, float igpaTenPercentile = 0, 
+        float igpaNinetyPercentile = 0, bool accommodation = false, bool insurance = false, 
+        bool visa = false, string hostUniversityExchangeWebsite = "", string courseCatalogLink = "", 
+        int creditLoadMin = 0, int creditLoadMax = 0, DateTime applicationDeadline = default)
+    {
+        UniversityName = universityName;
+        Icon = icon;
+        WorldRanking = worldRanking;
+        Description = description;
+        RegionId = regionId;
+        CountryId = countryId;
+        Address = address;
+        AcademicCalendar = academicCalendar;
+        AcademicCalendarLink = academicCalendarLink;
+        GpaRequirement = gpaRequirement;
+        NoOfPlacesSem1 = noOfPlacesSem1;
+        NoOfPlacesSem2 = noOfPlacesSem2;
+        IgpaTenPercentile = igpaTenPercentile;
+        IgpaNinetyPercentile = igpaNinetyPercentile;
+        Accommodation = accommodation;
+        Insurance = insurance;
+        Visa = visa;
+        HostUniversityWebsite = hostUniversityWebsite;
+        HostUniversityExchangeWebsite = hostUniversityExchangeWebsite;
+        CourseCatalogLink = courseCatalogLink;
+        CreditLoadMin = creditLoadMin;
+        CreditLoadMax = creditLoadMax;
+        CreditTransferRate = creditTransferRate;
+        ApplicationDeadline = applicationDeadline;
+    }
+    
     [Key]
     public string UniversityName { get; set; } = string.Empty;
 
@@ -64,4 +103,58 @@ public class University
     
     public ICollection<Review>? Reviews { get; set; }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
