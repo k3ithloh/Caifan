@@ -13,7 +13,7 @@ public class ModuleMap : BaseMap<Module>
         builder.Property(m => m.ModuleId).IsRequired();
         builder.Property(m => m.ModuleName).IsRequired();
         builder.Property(m => m.LinkToCourseOutline).IsRequired(false);
-        builder.Property(m => m.Description).IsRequired();
+        builder.Property(m => m.Description).IsRequired(false);
         builder.Property(m=>m.Faculty).IsRequired();
         builder.Property(m => m.Faculty).IsRequired();
         builder.Property(m => m.Credits).IsRequired();

@@ -10,9 +10,9 @@ public class DegreeUserMap : BaseMap<DegreeUser>
     public DegreeUserMap(EntityTypeBuilder<DegreeUser> builder) : base(builder)
     {
         builder.HasKey(e => new{ e.UserId, e.DegreeId});
-        builder.Property(e => e.UserId);
-        builder.Property(e=>e.DegreeId);
-        builder.Property(e => e.Primary);
+        builder.Property(e => e.UserId).IsRequired();
+        builder.Property(e=>e.DegreeId).IsRequired();
+        builder.Property(e => e.Primary).IsRequired();
 
         builder.HasOne(e => e.User)
             .WithMany(e => e.DegreeUsers)
