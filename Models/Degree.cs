@@ -20,5 +20,7 @@ public class Degree
     public string DegreeName { get; set; } = string.Empty;
     
     public ICollection<University>? Universities { get; set; }
+   
+    public ICollection<DegreeUser>? DegreeUsers { get; set; } 
 }
 

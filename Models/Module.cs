@@ -25,9 +25,7 @@ public class Module
     public int ModuleId { get; set; }
     
     public string UniversityName { get; set; } = string.Empty;
-    
-    public virtual University University { get; set; }
-    
+
     public string ModuleName { get; set; } = string.Empty;
     
     public string? LinkToCourseOutline { get; set; } = string.Empty;
@@ -38,6 +36,7 @@ public class Module
     
     public int Credits { get; set; }
     
+    public virtual University University { get; set; }
     public ICollection<Basket>? Baskets { get; set; }
 }
 

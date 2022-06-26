@@ -18,16 +18,16 @@ public class DegreeUser
     }
     
     // Composite key is set in DataContext as Composite keys can only be configured using the Fluent API
-    [ForeignKey("User")]
+    // [ForeignKey("User")]
     public int UserId { get; set; }
     
     [ForeignKey("Degree")]
-    public string DegreeId { get; set; }
+    public string DegreeId { get; set; } = string.Empty;
     
     public bool Primary { get; set; }
     
     public User User { get; set; }
     
+
     public Degree Degree { get; set; }
 }
-
