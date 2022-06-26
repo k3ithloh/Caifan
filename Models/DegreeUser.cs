@@ -11,11 +11,11 @@ public class DegreeUser
     public int UserId { get; set; }
     
     [ForeignKey("Degree")]
-    public string DegreeId { get; set; }
+    public string DegreeId { get; set; } = string.Empty;
     
     public bool Primary { get; set; }
     
     public User User { get; set; }
     
-    public Degree Degree { get; set; }
+    public Degree Degree { get; set; } 
 }
