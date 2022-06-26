@@ -17,5 +17,5 @@ public class User
     public string PasswordEncrypt { get; set; } = string.Empty;
     
     public ICollection<Review>? Reviews { get; set; }
-    
+    public ICollection<DegreeUser>? DegreeUsers { get; set; }
 }

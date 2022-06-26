@@ -7,7 +7,7 @@ namespace Caifan.Models;
 public class DegreeUser
 {
     // Composite key is set in DataContext as Composite keys can only be configured using the Fluent API
-    [ForeignKey("User")]
+    // [ForeignKey("User")]
     public int UserId { get; set; }
     
     [ForeignKey("Degree")]
