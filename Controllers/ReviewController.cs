@@ -61,8 +61,6 @@ namespace Caifan.Controllers
             review.Timestamp = request.Timestamp;
             review.Description = request.Description;
             review.UniversityName = request.UniversityName;
-            review.University = request.University;
-            review.User = request.User;
             
             await _context.SaveChangesAsync();
             

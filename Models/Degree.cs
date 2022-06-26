@@ -4,6 +4,16 @@ namespace Caifan.Models;
 
 public class Degree
 {
+    public Degree()
+    {
+    }
+
+    public Degree(string degreeId, string degreeName)
+    {
+        DegreeId = degreeId;
+        DegreeName = degreeName;
+    }
+    
     [Key]
     public string DegreeId { get; set; } = string.Empty;
     

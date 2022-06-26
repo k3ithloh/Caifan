@@ -5,6 +5,20 @@ namespace Caifan.Models;
 
 public class Review
 {
+    public Review()
+    {
+    }
+
+    public Review(int reviewId, int rating, int userId, string timestamp, string description, string universityName)
+    {
+        ReviewId = reviewId; 
+        Rating = rating; 
+        UserId = userId; 
+        Timestamp =  timestamp;
+        Description = description; 
+        UniversityName = universityName;  
+    }
+    
     [Key]
     public int ReviewId { get; set; }
     
@@ -27,3 +41,17 @@ public class Review
     
     public virtual User User { get; set; }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
