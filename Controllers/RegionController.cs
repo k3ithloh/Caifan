@@ -27,7 +27,7 @@ namespace Caifan.Controllers
         
         // Get a Region based on a given Region ID (regionid)
         [HttpGet("{regionid}")]
-        public async Task<ActionResult<Region>> Get(string regionid)
+        public async Task<ActionResult<Region>> Get(int regionid)
         {
             var region = await _context.Regions.FindAsync(regionid);
             if (region == null)
@@ -36,7 +36,7 @@ namespace Caifan.Controllers
         }
         
         // Add a new Region
-        [HttpPost]
+        [HttpPost("{regionid}/{regionName}")]
         public async Task<ActionResult<List<Region>>> AddRegion([FromBody] Region region)
         {
             _context.Regions.Add(region);
