@@ -1,20 +1,20 @@
 // might need the DataContext in the controllers as well so use global!
 global using Caifan.Data;
-using System.Reflection;
-using System.Text;
-using Caifan.Models;
-using CsvHelper;
+using Caifan;
+using Caifan.Resources;
+using Microsoft.AspNetCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-builder.Services.AddDbContext<DataContext>(options =>
-{
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
-});
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>(); 
+builder.Services.AddDbContext<DataContext>(options => 
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"))
+);
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -36,3 +36,14 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+public partial class Program
+{
+    public static void Main(string[] args)
+  {
+    CreateWebHostBuilder(args).Build().SeedData().Run();
+  }
+    public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
+    WebHost.CreateDefaultBuilder(args)
+        .UseStartup<Startup>();
+}

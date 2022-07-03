@@ -1,3 +1,5 @@
+using System.Data;
+using System.Globalization;
 using Caifan.Models;
 using Microsoft.EntityFrameworkCore;
 using Caifan.Data.Mappings;
@@ -6,6 +8,7 @@ namespace Caifan.Data;
 
 public class DataContext : DbContext
 {
+    public DataContext() { }
     public DataContext(DbContextOptions<DataContext> options) : base(options) { }
     
     // Creates database tables
@@ -90,6 +93,5 @@ public class DataContext : DbContext
         // modelBuilder.Entity<DegreeUser>()
         //     .HasKey(du => new { du.DegreeId, du.UserId });
     }
-
-
 }
+
