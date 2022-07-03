@@ -55,11 +55,11 @@ public class University
     
     public int RegionId { get; set; }
     
-    public virtual Region Region { get; set; }
+    public virtual Region? Region { get; set; }
     
     public string CountryId { get; set; } = string.Empty;
     
-    public virtual Country Country { get; set; }
+    public virtual Country? Country { get; set; }
     
     public string Address { get; set; } = string.Empty;
     
