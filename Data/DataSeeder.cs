@@ -2,7 +2,7 @@ using System.Reflection;
 using System.Text.Json;
 using Caifan.Models;
 
-namespace Caifan.Resources;
+namespace Caifan.Data;
 
 public class DataSeeder
 {
@@ -18,7 +18,7 @@ public class DataSeeder
     private string GetData()
     {
         string rootPath = _env.ContentRootPath;
-        string filePath = Path.GetFullPath(Path.Combine(rootPath, "Resources", "Region.json"));
+        string filePath = Path.GetFullPath(Path.Combine(rootPath, "Data", "Regions.json"));
         using (var r = new StreamReader(filePath))
         {
             string json = r.ReadToEnd();
@@ -29,10 +29,10 @@ public class DataSeeder
     public void Seed()
     {
         string data = GetData();
-        var items = JsonSerializer.Deserialize<List<Dictionary<string, int>>>(data);
+        var items = JsonSerializer.Deserialize<List<Dictionary<string, string>>>(data);
         foreach (var item in items)
         {
-            var s = new Region(item["RegionId"], item["RegionName"].ToString());
+            var s = new Region(item["RegionId"], item["RegionName"]);
             _db.Regions.Add(s);
         }
         _db.SaveChanges();

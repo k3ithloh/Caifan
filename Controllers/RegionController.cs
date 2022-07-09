@@ -5,16 +5,18 @@ using Microsoft.EntityFrameworkCore;
 namespace Caifan.Controllers
 
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class RegionController : ControllerBase
     {
         private readonly DataContext _context;
+        private readonly ILogger<RegionController> _logger;
         
         // constructor
-        public RegionController(DataContext context)
+        public RegionController(DataContext context, ILogger<RegionController> logger)
         {
             _context = context;
+            _logger = logger;
         }
 
 

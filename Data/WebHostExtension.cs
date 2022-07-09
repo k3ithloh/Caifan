@@ -1,8 +1,9 @@
-namespace Caifan.Resources;
+namespace Caifan.Data;
+using Microsoft.EntityFrameworkCore;
 
-public static class WebHostExtension
+public static class WebApplicationExtension
 {
-    public static IWebHost SeedData(this IWebHost host)
+    public static WebApplication SeedData(this WebApplication host)
     {
         using (var scope = host.Services.CreateScope())
         {
@@ -20,7 +21,6 @@ public static class WebHostExtension
                 logger.LogError(ex, "An error occurred initializing the DB");
             }
         }
-
         return host;
     }
     

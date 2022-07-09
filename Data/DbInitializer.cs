@@ -1,4 +1,4 @@
-namespace Caifan.Resources;
+namespace Caifan.Data;
 
 public class DbInitializer
 {
