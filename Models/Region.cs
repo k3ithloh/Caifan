@@ -8,14 +8,14 @@ public class Region
     {
     }
 
-    public Region(int regionId, string regionName)
+    public Region(string regionId, string regionName)
     {
         RegionId = regionId;
         RegionName = regionName;
     }
     
     [Key]
-    public int RegionId { get; set; }
+    public string RegionId { get; set; }
     
     public string RegionName { get; set; } = string.Empty;
     

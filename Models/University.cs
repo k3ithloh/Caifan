@@ -10,7 +10,7 @@ public class University
     {
     }
 
-    public University(string universityName, string description, int regionId, string countryId, string address, 
+    public University(string universityName, string description, string regionId, string countryId, string address, 
         string hostUniversityWebsite, int creditTransferRate, string icon = "", int worldRanking = 0, 
         string academicCalendar = "", string academicCalendarLink = "", float gpaRequirement = 0, 
         int noOfPlacesSem1 = 0, int noOfPlacesSem2 = 0, float igpaTenPercentile = 0, 
@@ -53,7 +53,7 @@ public class University
 
     public string Description { get; set; } = string.Empty;
     
-    public int RegionId { get; set; }
+    public string RegionId { get; set; }
     
     public virtual Region? Region { get; set; }
     
