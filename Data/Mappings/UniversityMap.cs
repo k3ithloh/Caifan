@@ -43,8 +43,10 @@ public class UniversityMap : BaseMap<University>
             .HasForeignKey(u => u.CountryId)
             .IsRequired();
 
-        builder.HasMany(u => u.Degrees)
-            .WithMany(u => u.Universities);
+        builder.HasMany(u => u.DegreeUniversities)
+            .WithOne(u => u.University)
+            .HasForeignKey(e => e.UniversityName)
+            .IsRequired();
 
         builder.HasMany(u => u.Modules)
             .WithOne(u => u.University)

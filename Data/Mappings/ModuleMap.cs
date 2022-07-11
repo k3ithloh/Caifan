@@ -22,11 +22,10 @@ public class ModuleMap : BaseMap<Module>
             .WithMany(m=>m.Modules)
             .HasForeignKey(m => m.UniversityName);
 
-        builder.HasMany(m => m.Baskets)
-            .WithMany(m => m.Modules)
-            ;
-        // .HasForeignKey<Module>(m => m.ModuleId)
-        // .IsRequired();
+        builder.HasMany(m => m.BasketModules)
+            .WithOne(m => m.Module)
+            .HasForeignKey(e => e.ModuleId)
+            .IsRequired();
     }
 }
 

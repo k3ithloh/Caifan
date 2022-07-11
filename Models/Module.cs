@@ -37,7 +37,7 @@ public class Module
     public int Credits { get; set; }
     
     public virtual University University { get; set; }
-    public ICollection<Basket>? Baskets { get; set; }
+    public ICollection<BasketModule>? BasketModules { get; set; }
 }
 
 

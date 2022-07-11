@@ -14,9 +14,10 @@ public class Basket
         BasketName = basketName;
     }
     
+    [Key]
     public int BasketId { get; set; }
     
     public string BasketName { get; set; } = string.Empty;
     
-    public ICollection<Module>? Modules { get; set; }
+    public ICollection<BasketModule>? BasketModules { get; set; }
 }
