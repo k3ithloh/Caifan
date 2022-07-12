@@ -19,7 +19,9 @@ public class DataSeeder
     private string GetData(string modelName)
     {
         string rootPath = _env.ContentRootPath;
-        string filePath = Path.GetFullPath(Path.Combine(rootPath, "Data/DataFiles", modelName + ".json"));
+        string fileName = modelName + ".json";
+        string filePath = Path.GetFullPath(Path.Combine(rootPath, "Data", "JsonFiles", fileName));
+        Console.WriteLine(filePath);
         using (var r = new StreamReader(filePath))
         {
             string json = r.ReadToEnd();
@@ -28,8 +30,6 @@ public class DataSeeder
     }
     
     // Seeder Methods for each model
-    // Order follows that in Database:
-    // BasketModule, Baskets, Countries, DegreeUniversity, DegreeUser, Degrees, Modules, Regions, Reviews, Universities, Users
 
     public void SeedBasketModule()
     {
