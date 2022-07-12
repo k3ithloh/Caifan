@@ -1,0 +1,34 @@
+[
+  {
+    "RegionId": "1",
+    "RegionName": "Africa"
+  },
+  {
+    "RegionId": "2",
+    "RegionName": "Asia"
+  },
+  {
+    "RegionId": "3",
+    "RegionName": "The Caribbean"
+  },
+  {
+    "RegionId": "4",
+    "RegionName": "Central America"
+  },
+  {
+    "RegionId": "5",
+    "RegionName": "Europe"
+  },
+  {
+    "RegionId": "6",
+    "RegionName": "North America"
+  },
+  {
+    "RegionId": "7",
+    "RegionName": "Oceania"
+  },
+  {
+    "RegionId": "8",
+    "RegionName": "South America"
+  }
+]
