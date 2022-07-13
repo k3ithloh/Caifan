@@ -8,7 +8,7 @@ public class BasketModule
     {
     }
 
-    public BasketModule(int basketId, int moduleId)
+    public BasketModule(int basketId, string moduleId)
     {
         BasketId = basketId;
         ModuleId = moduleId;
@@ -19,7 +19,7 @@ public class BasketModule
     
     
     [ForeignKey("Module")]
-    public int ModuleId { get; set; }
+    public string ModuleId { get; set; }
     
     
     public Basket Basket { get; set; }

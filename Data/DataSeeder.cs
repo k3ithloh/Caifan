@@ -21,7 +21,6 @@ public class DataSeeder
         string rootPath = _env.ContentRootPath;
         string fileName = modelName + ".json";
         string filePath = Path.GetFullPath(Path.Combine(rootPath, "Data", "JsonFiles", fileName));
-        Console.WriteLine(filePath);
         using (var r = new StreamReader(filePath))
         {
             string json = r.ReadToEnd();
@@ -34,10 +33,11 @@ public class DataSeeder
     public void SeedBasketModule()
     {
         string data = GetData("BasketModules");
-        var items = JsonSerializer.Deserialize<List<Dictionary<string, dynamic>>>(data);
+        var items = JsonSerializer.Deserialize<List<Dictionary<string, string>>>(data);
         foreach (var item in items)
         {
-            var s = new BasketModule(item["BasketId"], 
+            int basketId = Int32.Parse(item["BasketId"]);
+            var s = new BasketModule(basketId, 
                                     item["ModuleId"]);
             _db.BasketModules.Add(s);
         }
@@ -47,10 +47,11 @@ public class DataSeeder
     public void SeedBaskets()
     {
         string data = GetData("Baskets");
-        var items = JsonSerializer.Deserialize<List<Dictionary<string, dynamic>>>(data);
+        var items = JsonSerializer.Deserialize<List<Dictionary<string, string>>>(data);
         foreach (var item in items)
         {
-            var s = new Basket(item["BasketId"], 
+            int basketId = Int32.Parse(item["BasketId"]);
+            var s = new Basket(basketId, 
                                 item["BasketName"]);
             _db.Baskets.Add(s);
         }
@@ -60,7 +61,7 @@ public class DataSeeder
     public void SeedCountries()
     {
         string data = GetData("Countries");
-        var items = JsonSerializer.Deserialize<List<Dictionary<string, dynamic>>>(data);
+        var items = JsonSerializer.Deserialize<List<Dictionary<string, string>>>(data);
         foreach (var item in items)
         {
             var s = new Country(item["CountryId"], 
@@ -73,7 +74,7 @@ public class DataSeeder
     public void SeedDegreeUniversity()
     {
         string data = GetData("DegreeUniversities");
-        var items = JsonSerializer.Deserialize<List<Dictionary<string, dynamic>>>(data);
+        var items = JsonSerializer.Deserialize<List<Dictionary<string, string>>>(data);
         foreach (var item in items)
         {
             var s = new DegreeUniversity(item["DegreeId"], 
@@ -86,12 +87,14 @@ public class DataSeeder
     public void SeedDegreeUser()
     {
         string data = GetData("DegreeUsers");
-        var items = JsonSerializer.Deserialize<List<Dictionary<string, dynamic>>>(data);
+        var items = JsonSerializer.Deserialize<List<Dictionary<string, string>>>(data);
         foreach (var item in items)
         {
-            var s = new DegreeUser(item["UserId"], 
+            int userId = Int32.Parse(item["UserId"]);
+            bool primary = Boolean.Parse(item["Primary"]);
+            var s = new DegreeUser(userId, 
                                     item["DegreeId"], 
-                                    item["Primary"]);
+                                    primary);
             _db.DegreeUsers.Add(s);
         }
         _db.SaveChanges();
@@ -100,7 +103,7 @@ public class DataSeeder
     public void SeedDegrees()
     {
         string data = GetData("Degrees");
-        var items = JsonSerializer.Deserialize<List<Dictionary<string, dynamic>>>(data);
+        var items = JsonSerializer.Deserialize<List<Dictionary<string, string>>>(data);
         foreach (var item in items)
         {
             var s = new Degree(item["DegreeId"],
@@ -113,16 +116,17 @@ public class DataSeeder
     public void SeedModules()
     {
         string data = GetData("Modules");
-        var items = JsonSerializer.Deserialize<List<Dictionary<string, dynamic>>>(data);
+        var items = JsonSerializer.Deserialize<List<Dictionary<string, string>>>(data);
         foreach (var item in items)
         {
-            var s = new Module(item["ModuleId"], 
-                item["UniversityName"], 
-                item["ModuleName"], 
-                item["LinkToCourseOutline"], 
-                item["Description"], 
-                item["Faculty"], 
-                item["Credits"]);
+            int credits = Int32.Parse(item["Credits"]);
+            var s = new Module(item["ModuleId"],
+                item["UniversityName"],
+                item["ModuleName"],
+                item["Faculty"],
+                credits,
+                item["LinkToCourseOutline"],
+                item["Description"]);
             _db.Modules.Add(s);
         }
         _db.SaveChanges();
@@ -131,10 +135,11 @@ public class DataSeeder
     public void SeedRegions()
     {
         string data = GetData("Regions");
-        var items = JsonSerializer.Deserialize<List<Dictionary<string, dynamic>>>(data);
+        var items = JsonSerializer.Deserialize<List<Dictionary<string, string>>>(data);
         foreach (var item in items)
         {
-            var s = new Region(item["RegionId"], 
+            int regionId = Int32.Parse(item["RegionId"]);
+            var s = new Region(regionId, 
                                 item["RegionName"]);
             _db.Regions.Add(s);
         }
@@ -144,12 +149,15 @@ public class DataSeeder
     public void SeedReviews()
     {
         string data = GetData("Reviews");
-        var items = JsonSerializer.Deserialize<List<Dictionary<string, dynamic>>>(data);
+        var items = JsonSerializer.Deserialize<List<Dictionary<string, string>>>(data);
         foreach (var item in items)
         {
-            var s = new Review(item["ReviewId"],
-                            item["Rating"],  
-                            item["UserId"],  
+            int reviewId = Int32.Parse(item["ReviewId"]);
+            int rating = Int32.Parse(item["Rating"]);
+            int userId = Int32.Parse(item["UserId"]);
+            var s = new Review(reviewId,
+                                rating,  
+                                userId,  
                             item["Timestamp"],
                             item["Description"],  
                             item["UniversityName"]);
@@ -161,33 +169,113 @@ public class DataSeeder
     public void SeedUniversities()
     {
         string data = GetData("Universities");
-        var items = JsonSerializer.Deserialize<List<Dictionary<string, dynamic>>>(data);
+        var items = JsonSerializer.Deserialize<List<Dictionary<string, string>>>(data);
         foreach (var item in items)
         {
+            int worldRanking = Int32.Parse(item["WorldRanking"]);
+            int regionId = Int32.Parse(item["RegionId"]);
+            int creditTransferRate = Int32.Parse(item["CreditTransferRate"]);
+            int gpaRequirement = 0;
+            int noOfPlacesSem1 = 0;
+            int noOfPlacesSem2 = 0;
+            int igpaTenPercentile = 0;
+            int igpaNinetyPercentile = 0;
+            bool accommodation = false;
+            bool insurance = false;
+            bool visa = false;
+            int creditLoadMin = 0;
+            int creditLoadMax = 0;
+            DateTime applicationDeadline = DateTime.Now;
+            try
+            {
+                gpaRequirement = Int32.Parse(item["GpaRequirement"]);
+            }
+            catch(ArgumentNullException) {}
+            
+            try
+            {
+                noOfPlacesSem1 = Int32.Parse(item["NoOfPlacesSem1"]);
+            }
+            catch(ArgumentNullException){}
+            
+            try
+            {
+                noOfPlacesSem2 = Int32.Parse(item["NoOfPlacesSem2"]);
+            }
+            catch(ArgumentNullException){}
+            
+            try
+            {
+                igpaTenPercentile = Int32.Parse(item["IgpaTenPercentile"]);
+            }
+            catch(ArgumentNullException){}
+            
+            try
+            {
+                igpaNinetyPercentile = Int32.Parse(item["IgpaNinetyPercentile"]);
+            }
+            catch(ArgumentNullException){}
+            
+            try
+            {
+                accommodation = Boolean.Parse(item["Accommodation"]);
+            }
+            catch(ArgumentNullException){}
+            
+            try
+            {
+                insurance = Boolean.Parse(item["Insurance"]);
+            }
+            catch(ArgumentNullException){}
+            
+            try
+            {
+                visa = Boolean.Parse(item["Visa"]);
+            }
+            catch(ArgumentNullException){}
+            
+            try
+            {
+                creditLoadMin = Int32.Parse(item["CreditLoadMin"]);
+            }
+            catch(ArgumentNullException){}
+            
+            try
+            {
+                creditLoadMax = Int32.Parse(item["CreditLoadMax"]);
+            }
+            catch(ArgumentNullException){}
+            
+            try
+            {
+                applicationDeadline = DateTime.Parse(item["ApplicationDeadline"]);
+            }
+            catch(ArgumentNullException){}
+            
             var s = new University(item["UniversityName"],
-                                    item["Icon"],
-                                    item["WorldRanking"],
                                     item["Description"],
-                                    item["RegionId"],
+                                    regionId,
                                     item["CountryId"], 
                                     item["Address"],
+                                    item["HostUniversityWebsite"],
+                                    creditTransferRate,
+                                    item["Icon"],
+                                    worldRanking,
                                     item["AcademicCalendar"],
                                     item["AcademicCalendarLink"], 
-                                    item["GpaRequirement"],
-                                    item["NoOfPlacesSem1"],
-                                    item["NoOfPlacesSem2"],
-                                    item["IgpaTenPercentile"],
-                                    item["IgpaNinetyPercentile"],
-                                    item["Accommodation"],
-                                    item["Insurance"],
-                                    item["Visa"],
-                                    item["HostUniversityWebsite"],
+                                    gpaRequirement,
+                                    noOfPlacesSem1,
+                                    noOfPlacesSem2,
+                                    igpaTenPercentile,
+                                    igpaNinetyPercentile,
+                                    accommodation,
+                                    insurance,
+                                    visa,
                                     item["HostUniversityExchangeWebsite"],
                                     item["CourseCatalogLink"],
-                                    item["CreditLoadMin"],
-                                    item["CreditLoadMax"],
-                                    item["CreditTransferRate"],
-                                    item["ApplicationDeadline"]);
+                                    creditLoadMin,
+                                    creditLoadMax,
+                                    applicationDeadline);
             _db.Universities.Add(s);
         }
         _db.SaveChanges();
@@ -196,13 +284,15 @@ public class DataSeeder
     public void SeedUsers()
     {
         string data = GetData("Users");
-        var items = JsonSerializer.Deserialize<List<Dictionary<string, dynamic>>>(data);
+        var items = JsonSerializer.Deserialize<List<Dictionary<string, string>>>(data);
         foreach (var item in items)
         {
-            var s = new User(item["UserId"], 
+            int userId = Int32.Parse(item["UserId"]);
+            int mobileNo = Int32.Parse(item["MobileNo"]);
+            var s = new User(userId, 
                             item["Username"],
                             item["Email"],
-                            item["MobileNo"],
+                            mobileNo,
                             item["PasswordEncrypt"]);
             _db.Users.Add(s);
         }

@@ -10,7 +10,7 @@ public class Module
     {
     }
 
-    public Module(int moduleId, string universityName, string moduleName, string faculty, int credits, string linkToCourseOutline = "", string description = "")
+    public Module(string moduleId, string universityName, string moduleName, string faculty, int credits, string linkToCourseOutline = "", string description = "")
     {
         ModuleId = moduleId; 
         UniversityName = universityName; 
@@ -22,7 +22,7 @@ public class Module
     }
     
     // Composite key (ModuleId, UniversityName) is set in DataContext as Composite keys can only be configured using the Fluent API
-    public int ModuleId { get; set; }
+    public string ModuleId { get; set; }
     
     public string UniversityName { get; set; } = string.Empty;
 

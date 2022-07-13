@@ -1,20 +1,20 @@
 [
   {
     "ModuleId": "AH2101",
-    "UniversityName": "National University of Singapore (NUS)",
+    "UniversityName": "Singapore Management University",
     "ModuleName": "Introduction to Art History",
     "LinkToCourseOutline": "https://luminus.nus.edu.sg",
     "Description": "Sample Description 1",
     "Faculty": "Arts and Social Sciences",
-    "Credits": 1
+    "Credits": "1"
   },
   {
   "ModuleId": "AH2201",
-  "UniversityName": "National University of Singapore (NUS)",
+  "UniversityName": "Singapore Management University",
   "ModuleName": "Chinese Painting: Styles and Masters",
   "LinkToCourseOutline": "https://luminus.nus.edu.sg",
   "Description": "Sample Description 2",
   "Faculty": "Arts and Social Sciences",
-  "Credits": 1
+  "Credits": "1"
   }
 ]
