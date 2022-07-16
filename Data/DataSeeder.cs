@@ -172,6 +172,7 @@ public class DataSeeder
         var items = JsonSerializer.Deserialize<List<Dictionary<string, string>>>(data);
         foreach (var item in items)
         {
+            
             int worldRanking = Int32.Parse(item["WorldRanking"]);
             int regionId = Int32.Parse(item["RegionId"]);
             int creditTransferRate = Int32.Parse(item["CreditTransferRate"]);

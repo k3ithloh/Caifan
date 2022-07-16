@@ -10,13 +10,15 @@ public class Module
     {
     }
 
-    public Module(string moduleId, string universityName, string moduleName, string faculty, int credits, string linkToCourseOutline = "", string description = "")
+    public Module(string moduleId, string universityName, string moduleName, string faculty, int credits, string difficulty = "", string popularity = "", string linkToCourseOutline = "", string description = "")
     {
         ModuleId = moduleId; 
         UniversityName = universityName; 
         ModuleName = moduleName; 
         LinkToCourseOutline = linkToCourseOutline; 
-        Description = description; 
+        Description = description;
+        Difficulty = difficulty;
+        Popularity = popularity;
         Faculty = faculty; 
         Credits = credits; 
     }
@@ -32,6 +34,10 @@ public class Module
     
     public string? Description { get; set; } = string.Empty;
     
+    //Add this difficulty of modules
+    public string? Difficulty { get; set; } = string.Empty;
+    //Add popularity of modules
+    public string? Popularity { get; set; } = string.Empty;
     public string Faculty { get; set; } = string.Empty;
     
     public int Credits { get; set; }

@@ -14,5 +14,29 @@
   {
     "DegreeId": "BSc (C&L)",
     "DegreeName": "Bachelor of Science (Computing and Law)"
+  },
+  {
+    "DegreeId": "BAcc",
+    "DegreeName": "Bachelor of Accounting"
+  },
+  {
+    "DegreeId": "BBM",
+    "DegreeName": "Bachelor of Business Managment"
+  },
+  {
+    "DegreeId": "LLB",
+    "DegreeName": "Bachelor of Law"
+  },
+  {
+    "DegreeId": "BSocSc",
+    "DegreeName": "Bachelor of Social Science"
+  },
+  {
+    "DegreeId": "JD",
+    "DegreeName": "Juris Doctor Law Programme"
+  },
+  {
+    "DegreeId": "BSc (Econ)",
+    "DegreeName": "Bachelor of Science (Economics)"
   }
 ]

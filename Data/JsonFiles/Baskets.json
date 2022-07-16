@@ -1,14 +1,222 @@
 [
   {
+    "BasketId": "0",
+    "BasketName": "NIL"
+  },
+  {
     "BasketId": "1",
     "BasketName": "Asian Studies"
+  },
+  {
+    "BasketId": "10",
+    "BasketName": "Comm - Technology & Society"
+  },
+  {
+    "BasketId": "11",
+    "BasketName": "Comm - Cltr of the Modern Wrl"
+  },
+  {
+    "BasketId": "12",
+    "BasketName": "Economics of Globalisation"
+  },
+  {
+    "BasketId": "13",
+    "BasketName": "Cap - Modes of Thinking"
+  },
+  {
+    "BasketId": "14",
+    "BasketName": "Political Econ of Globalizatn"
+  },
+  {
+    "BasketId": "15",
+    "BasketName": "Comm-Cltr of Mdrn Wrld+AS std"
+  },
+  {
+    "BasketId": "16",
+    "BasketName": "Business-Oriented Elective"
+  },
+  {
+    "BasketId": "17",
+    "BasketName": "EMR (Social Science)"
+  },
+  {
+    "BasketId": "18",
+    "BasketName": "Physiological Psychology"
+  },
+  {
+    "BasketId": "19",
+    "BasketName": "Cognitive Psychology"
   },
   {
     "BasketId": "2",
     "BasketName": "Business Option"
   },
   {
+    "BasketId": "20",
+    "BasketName": "Developmental Psychology"
+  },
+  {
+    "BasketId": "21",
+    "BasketName": "Social Psychology"
+  },
+  {
+    "BasketId": "22",
+    "BasketName": "SSMR (Social Science)"
+  },
+  {
+    "BasketId": "23",
+    "BasketName": "Psychology of Emotions"
+  },
+  {
+    "BasketId": "24",
+    "BasketName": "Political Science Major"
+  },
+  {
+    "BasketId": "25",
+    "BasketName": "Free Electives (For LKCSB)"
+  },
+  {
+    "BasketId": "26",
+    "BasketName": "Econ Major Rel/Econ Options"
+  },
+  {
+    "BasketId": "27",
+    "BasketName": "Intro to Sociological Theory"
+  },
+  {
+    "BasketId": "28",
+    "BasketName": "Strategic Mgmt Major Elective"
+  },
+  {
+    "BasketId": "29",
+    "BasketName": "Capabilities - Managing"
+  },
+  {
     "BasketId": "3",
     "BasketName": "Economics Major Elective"
+  },
+  {
+    "BasketId": "30",
+    "BasketName": "Acct Options / Acct Elective"
+  },
+  {
+    "BasketId": "31",
+    "BasketName": "Statistical Programming"
+  },
+  {
+    "BasketId": "32",
+    "BasketName": "ADA Major Elective + AO/AE"
+  },
+  {
+    "BasketId": "33",
+    "BasketName": "Marketing Major Elective"
+  },
+  {
+    "BasketId": "34",
+    "BasketName": "Real Estate Track Only"
+  },
+  {
+    "BasketId": "35",
+    "BasketName": "Finance Major Elective"
+  },
+  {
+    "BasketId": "36",
+    "BasketName": "Data Modelling & Visualisation"
+  },
+  {
+    "BasketId": "37",
+    "BasketName": "Introduction to Programming"
+  },
+  {
+    "BasketId": "38",
+    "BasketName": "IS Technology Depth Elective"
+  },
+  {
+    "BasketId": "39",
+    "BasketName": "Free Electives (SCIS only)"
+  },
+  {
+    "BasketId": "4",
+    "BasketName": "Game Theory"
+  },
+  {
+    "BasketId": "40",
+    "BasketName": "Comm – Tech & Soc + SG Std"
+  },
+  {
+    "BasketId": "41",
+    "BasketName": "AO/AE + FNCE"
+  },
+  {
+    "BasketId": "42",
+    "BasketName": "Law Major Elective-LLB/JD only"
+  },
+  {
+    "BasketId": "43",
+    "BasketName": "Banking Law"
+  },
+  {
+    "BasketId": "44",
+    "BasketName": "LAW + FNCE - LLB only"
+  },
+  {
+    "BasketId": "45",
+    "BasketName": "Intl Commercial Arbitration"
+  },
+  {
+    "BasketId": "46",
+    "BasketName": "Public International Law"
+  },
+  {
+    "BasketId": "47",
+    "BasketName": "WTO: Law and Policy"
+  },
+  {
+    "BasketId": "48",
+    "BasketName": "Intellectual Property Law"
+  },
+  {
+    "BasketId": "49",
+    "BasketName": "Family Law"
+  },
+  {
+    "BasketId": "5",
+    "BasketName": "Monetary Economics"
+  },
+  {
+    "BasketId": "50",
+    "BasketName": "ECON + HEM"
+  },
+  {
+    "BasketId": "51",
+    "BasketName": "Stoch. Processes & Modeling"
+  },
+  {
+    "BasketId": "52",
+    "BasketName": "Free Electives (For SOE only)"
+  },
+  {
+    "BasketId": "53",
+    "BasketName": "Survey Methods"
+  },
+  {
+    "BasketId": "54",
+    "BasketName": "App Stat Major Elective - Meth"
+  },
+  {
+    "BasketId": "6",
+    "BasketName": "Urban Economics and Policy"
+  },
+  {
+    "BasketId": "7",
+    "BasketName": "General Education - Arts"
+  },
+  {
+    "BasketId": "8",
+    "BasketName": "Globalisation"
+  },
+  {
+    "BasketId": "9",
+    "BasketName": "General Education - Science"
   }
 ]

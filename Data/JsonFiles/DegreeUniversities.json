@@ -14,5 +14,29 @@
   {
     "DegreeId": "BSc (C&L)",
     "UniversityName": "Singapore Management University"
+  },
+  {
+    "DegreeId": "BAcc",
+    "UniversityName": "Singapore Management University"
+  },
+  {
+    "DegreeId": "BBM",
+    "UniversityName": "Singapore Management University"
+  },
+  {
+    "DegreeId": "LLB",
+    "UniversityName": "Singapore Management University"
+  },
+  {
+    "DegreeId": "BSocSc",
+    "UniversityName": "Singapore Management University"
+  },
+  {
+    "DegreeId": "JD",
+    "UniversityName": "Singapore Management University"
+  },
+  {
+    "DegreeId": "BSc (Econ)",
+    "UniversityName": "Singapore Management University"
   }
 ]

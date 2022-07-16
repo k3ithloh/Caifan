@@ -1,0 +1,18 @@
+[
+  {
+    "ReviewId": "1",
+    "Rating": "5",
+    "UserId": "1",
+    "Timestamp": "12/07/2022 02:42:04",
+    "Description": "Sample Description 1",
+    "UniversityName": "Singapore Management University"
+  },
+  {
+    "ReviewId": "2",
+    "Rating": "4",
+    "UserId": "2",
+    "Timestamp": "12/07/2022 02:42:04",
+    "Description": "Sample Description 2",
+    "UniversityName": "Singapore Management University"
+  }
+]
