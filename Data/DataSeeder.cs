@@ -176,11 +176,11 @@ public class DataSeeder
             int worldRanking = Int32.Parse(item["WorldRanking"]);
             int regionId = Int32.Parse(item["RegionId"]);
             int creditTransferRate = Int32.Parse(item["CreditTransferRate"]);
-            int gpaRequirement = 0;
+            float gpaRequirement = 0;
             int noOfPlacesSem1 = 0;
             int noOfPlacesSem2 = 0;
-            int igpaTenPercentile = 0;
-            int igpaNinetyPercentile = 0;
+            float igpaTenPercentile = 0;
+            float igpaNinetyPercentile = 0;
             bool accommodation = false;
             bool insurance = false;
             bool visa = false;
@@ -189,7 +189,7 @@ public class DataSeeder
             DateTime applicationDeadline = DateTime.Now;
             try
             {
-                gpaRequirement = Int32.Parse(item["GpaRequirement"]);
+                gpaRequirement = float.Parse(item["GpaRequirement"]);
             }
             catch(ArgumentNullException) {}
             
@@ -207,13 +207,13 @@ public class DataSeeder
             
             try
             {
-                igpaTenPercentile = Int32.Parse(item["IgpaTenPercentile"]);
+                igpaTenPercentile = float.Parse(item["IgpaTenPercentile"]);
             }
             catch(ArgumentNullException){}
             
             try
             {
-                igpaNinetyPercentile = Int32.Parse(item["IgpaNinetyPercentile"]);
+                igpaNinetyPercentile = float.Parse(item["IgpaNinetyPercentile"]);
             }
             catch(ArgumentNullException){}
             
