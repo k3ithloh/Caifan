@@ -1,11 +1,39 @@
 [
   {
-    "BasketId": "0",
-    "BasketName": "NIL"
-  },
-  {
     "BasketId": "1",
     "BasketName": "Asian Studies"
+  },
+  {
+    "BasketId": "2",
+    "BasketName": "Business Option"
+  },
+  {
+    "BasketId": "3",
+    "BasketName": "Economics Major Elective"
+  },
+  {
+    "BasketId": "4",
+    "BasketName": "Game Theory"
+  },
+  {
+    "BasketId": "5",
+    "BasketName": "Monetary Economics"
+  },
+  {
+    "BasketId": "6",
+    "BasketName": "Urban Economics and Policy"
+  },
+  {
+    "BasketId": "7",
+    "BasketName": "General Education - Arts"
+  },
+  {
+    "BasketId": "8",
+    "BasketName": "Globalisation"
+  },
+  {
+    "BasketId": "9",
+    "BasketName": "General Education - Science"
   },
   {
     "BasketId": "10",
@@ -48,10 +76,6 @@
     "BasketName": "Cognitive Psychology"
   },
   {
-    "BasketId": "2",
-    "BasketName": "Business Option"
-  },
-  {
     "BasketId": "20",
     "BasketName": "Developmental Psychology"
   },
@@ -90,10 +114,6 @@
   {
     "BasketId": "29",
     "BasketName": "Capabilities - Managing"
-  },
-  {
-    "BasketId": "3",
-    "BasketName": "Economics Major Elective"
   },
   {
     "BasketId": "30",
@@ -136,10 +156,6 @@
     "BasketName": "Free Electives (SCIS only)"
   },
   {
-    "BasketId": "4",
-    "BasketName": "Game Theory"
-  },
-  {
     "BasketId": "40",
     "BasketName": "Comm – Tech & Soc + SG Std"
   },
@@ -180,10 +196,6 @@
     "BasketName": "Family Law"
   },
   {
-    "BasketId": "5",
-    "BasketName": "Monetary Economics"
-  },
-  {
     "BasketId": "50",
     "BasketName": "ECON + HEM"
   },
@@ -202,21 +214,5 @@
   {
     "BasketId": "54",
     "BasketName": "App Stat Major Elective - Meth"
-  },
-  {
-    "BasketId": "6",
-    "BasketName": "Urban Economics and Policy"
-  },
-  {
-    "BasketId": "7",
-    "BasketName": "General Education - Arts"
-  },
-  {
-    "BasketId": "8",
-    "BasketName": "Globalisation"
-  },
-  {
-    "BasketId": "9",
-    "BasketName": "General Education - Science"
   }
 ]
