@@ -50,3 +50,25 @@ git push origin <branch name>
 ```
 Click [here](http://guides.beanstalkapp.com/version-control/common-git-commands.html) for more Git CLI commands
 
+End Points
+    GET ALL
+https://localhost:7059/api/module
+https://localhost:7059/api/basket
+https://localhost:7059/api/country
+https://localhost:7059/api/degree
+https://localhost:7059/api/region
+https://localhost:7059/api/university
+https://localhost:7059/api/review
+https://localhost:7059/api/user
+https://localhost:7059/api/degreeuser
+
+    GET ONE
+https://localhost:7059/api/module/{mid}
+https://localhost:7059/api/basket/{bid}
+https://localhost:7059/api/country/{countryid}
+https://localhost:7059/api/degree/{degreeid}
+https://localhost:7059/api/region/{regionid}
+https://localhost:7059/api/university/{universityname}
+https://localhost:7059/api/review/{reviewid}
+https://localhost:7059/api/user/{userid}
+
