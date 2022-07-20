@@ -50,25 +50,17 @@ git push origin <branch name>
 ```
 Click [here](http://guides.beanstalkapp.com/version-control/common-git-commands.html) for more Git CLI commands
 
-End Points
-    GET ALL
-https://localhost:7059/api/module
-https://localhost:7059/api/basket
-https://localhost:7059/api/country
-https://localhost:7059/api/degree
-https://localhost:7059/api/region
-https://localhost:7059/api/university
-https://localhost:7059/api/review
-https://localhost:7059/api/user
-https://localhost:7059/api/degreeuser
-
-    GET ONE
-https://localhost:7059/api/module/{mid}
-https://localhost:7059/api/basket/{bid}
-https://localhost:7059/api/country/{countryid}
-https://localhost:7059/api/degree/{degreeid}
-https://localhost:7059/api/region/{regionid}
-https://localhost:7059/api/university/{universityname}
-https://localhost:7059/api/review/{reviewid}
-https://localhost:7059/api/user/{userid}
+## Deployment Pipeline
+Run the following commands in the project directory (---/Caifan) to package our code for deployment.
+``` sh
+dotnet publish -c Release -o deploy
+cd deploy
+zip -r ../deploy_bundle.zip *
+```
+Go to Elastic Beanstalk in the AWS Management Console. On the left navbar and click on the following:
+Environments > Caifan-prod-env > Upload and deploy > Choose File > Select the deploy_bundle.zip you just created.  
+  
+Version label will be automatically generated, no need to change. Then click ```Deploy```.  
+  
+Deployment takes around 1-3 mins. After deployment is completed, ensure that Health Status is ```Ok```. You may click the ```Go to Environment``` on the left navbar to access the landing page of our application. 
 
