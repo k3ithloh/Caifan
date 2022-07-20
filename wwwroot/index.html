@@ -25,7 +25,7 @@
       }
       a {
         color: #000000;
-        font-weight: bolder;
+        font-weight: normal;
       }
       .textColumn, .linksColumn {
         padding: 2em;
@@ -89,18 +89,31 @@
     </div>
     <div class="linksColumn">
       <h2>Working APIs:</h2>
+      <h4>GET ALL</h4>
       <ol>
-        <li><a href="/api/module">GET ALL Modules</a></li>
-        <li><a href="/api/basket">GET ALL Baskets</a></li>
-        <li><a href="/api/country">GET ALL Countries</a></li>
-        <li><a href="/api/degree">GET ALL Degrees</a></li>
-        <li><a href="/api/region">GET ALL Regions</a></li>
-        <li><a href="/api/university">GET ALL Universities</a></li>
-        <li><a href="/api/review">GET ALL Reviews</a></li>
-        <li><a href="/api/user">GET ALL Users</a></li>
-        <li><a href="/api/degreeuser">GET ALL DegreeUsers</a></li>
-        <ul><li>This table identifies the primary and secondary degree for a given user.</li></ul>
+        <li><a href="/api/module">/api/module</a></li>
+        <li><a href="/api/basket">/api/basket</a></li>
+        <li><a href="/api/country">/api/country</a></li>
+        <li><a href="/api/degree">/api/degree</a></li>
+        <li><a href="/api/region">/api/region</a></li>
+        <li><a href="/api/university">/api/university</a></li>
+        <li><a href="/api/review">/api/review</a></li>
+        <li><a href="/api/user">/api/user</a></li>
+        <li><a href="/api/degreeuser">/api/degreeuser</a></li>
+          <ul><li>This table identifies the primary and secondary degree for a given user.</li></ul>
+      </ol>
+      <h4>GET ONE</h4>
+      <ol>
+        <li>/api/module/{mid}</li>
+        <li>/api/basket/{bid}</li>
+        <li>/api/country/{countryid}</li>
+        <li>/api/degree/{degreeid}</li>
+        <li>/api/region/{regionid}</li>
+        <li>/api/university/{universityname}</li>
+        <li>/api/review/{reviewid}</li>
+        <li>/api/user/{userid}</li>
       </ol>
     </div>
   </body>
 </html>
+
