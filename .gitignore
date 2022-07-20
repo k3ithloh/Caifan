@@ -692,3 +692,6 @@ $RECYCLE.BIN/
 
 #Migrations
 Migrations/
+
+#Deployment packages
+deploy/
