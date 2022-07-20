@@ -50,3 +50,17 @@ git push origin <branch name>
 ```
 Click [here](http://guides.beanstalkapp.com/version-control/common-git-commands.html) for more Git CLI commands
 
+## Deployment Pipeline
+Run the following commands in the project directory (---/Caifan) to package our code for deployment.
+``` sh
+dotnet publish -c Release -o deploy
+cd deploy
+zip -r ../deploy_bundle.zip *
+```
+Go to Elastic Beanstalk in the AWS Management Console. On the left navbar and click on the following:
+Environments > Caifan-prod-env > Upload and deploy > Choose File > Select the deploy_bundle.zip you just created.  
+  
+Version label will be automatically generated, no need to change. Then click ```Deploy```.  
+  
+Deployment takes around 1-3 mins. After deployment is completed, ensure that Health Status is ```Ok```. You may click the ```Go to Environment``` on the left navbar to access the landing page of our application. 
+

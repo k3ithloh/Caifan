@@ -26,7 +26,7 @@ namespace Caifan.Controllers
         
         // Get a Module based on a given Module ID (mid)
         [HttpGet("{mid}")]
-        public async Task<ActionResult<List<Module>>> Get(int mid)
+        public async Task<ActionResult<List<Module>>> Get(string mid)
         {
             var module = await _context.Modules.FindAsync(mid);
             if (module == null)
@@ -57,6 +57,8 @@ namespace Caifan.Controllers
             module.UniversityName = request.UniversityName;
             module.LinkToCourseOutline = request.LinkToCourseOutline;
             module.Description = request.Description;
+            module.Difficulty = request.Difficulty;
+            module.Popularity = request.Popularity;
             module.Faculty = request.Faculty;
             module.Credits = request.Credits;
             
@@ -67,7 +69,7 @@ namespace Caifan.Controllers
 
         // Delete a Module based on a given Module ID (mid)
         [HttpDelete("{mid}")]
-        public async Task<ActionResult<List<Module>>> DeleteModule(int mid)
+        public async Task<ActionResult<List<Module>>> DeleteModule(string mid)
         {
             var module = await _context.Modules.FindAsync(mid);
             if (module == null)

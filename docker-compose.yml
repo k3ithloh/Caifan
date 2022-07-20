@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  caifan-postgres:
+    image: postgres:13-alpine
+    container_name: caifan-postgres
+    environment:
+      - POSTGRES_DATABASE=caifan
+      - POSTGRES_USER=caifanadmin
+      - POSTGRES_PASSWORD=password
+    ports:
+      - 5432:5432
+    volumes:
+      - postgres-caifan-data:/data/db
+    restart: on-failure
+
+volumes:
+  postgres-caifan-data:

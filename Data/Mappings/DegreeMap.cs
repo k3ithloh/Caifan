@@ -13,9 +13,14 @@ public class DegreeMap : BaseMap<Degree>
         builder.Property(e => e.DegreeId).IsRequired();
         builder.Property(e => e.DegreeName).IsRequired();
 
-        builder.HasMany(e => e.Universities)
-            .WithMany(e => e.Degrees);
-        // .HasForeignKey(e => e.DegreeId)
-        // .IsRequired();
+        builder.HasMany(e => e.DegreeUniversities)
+            .WithOne(e => e.Degree)
+            .HasForeignKey(e => e.DegreeId)
+            .IsRequired();
+        
+        builder.HasMany(e => e.DegreeUsers)
+            .WithOne(e => e.Degree)
+            .HasForeignKey(e => e.DegreeId)
+            .IsRequired();
     }
 }

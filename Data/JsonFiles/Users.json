@@ -1,0 +1,44 @@
+[
+  {
+    "UserId": "1",
+    "Username": "cherylperyl",
+    "Email": "cherylperyl@gmail.com",
+    "MobileNo": "12345678",
+    "PasswordEncrypt": "gedleiedbdtlgudctertftivitfilbkv"
+  },
+  {
+    "UserId": "2",
+    "Username": "desireely",
+    "Email": "desireely@gmail.com",
+    "MobileNo": "91011121",
+    "PasswordEncrypt": "jngenifruffknlhkgcvbjhgkcgbckfgh"
+  },
+  {
+    "UserId": "3",
+    "Username": "keithloh",
+    "Email": "keithloh@gmail.com",
+    "MobileNo": "31415161",
+    "PasswordEncrypt": "hfjdceienkunjdvvlikivbhihuikcneu"
+  },
+  {
+    "UserId": "4",
+    "Username": "benjingkt",
+    "Email": "benjingkt@gmail.com",
+    "MobileNo": "71819202",
+    "PasswordEncrypt": "htkfccteljhefkknhciltllilrfgnetd"
+  },
+  {
+    "UserId": "5",
+    "Username": "Tylerlian",
+    "Email": "Tylerlian@gmail.com",
+    "MobileNo": "12223242",
+    "PasswordEncrypt": "tnieftgrbhclkuufhlurietbdrhejgtc"
+  },
+  {
+    "UserId": "6",
+    "Username": "Admin",
+    "Email": "test@smu.edu.sg",
+    "MobileNo": "88888888",
+    "PasswordEncrypt": "1234test"
+  }
+]

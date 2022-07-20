@@ -1,0 +1,42 @@
+[
+  {
+    "DegreeId": "BSc (IS)",
+    "DegreeName": "Bachelor of Science (Information Systems)"
+  },
+  {
+    "DegreeId": "BSc (CS)",
+    "DegreeName": "Bachelor of Science (Computer Science)"
+  },
+  {
+    "DegreeId": "BSc (SMT)",
+    "DegreeName": "Bachelor of Science (Smart City Management)"
+  },
+  {
+    "DegreeId": "BSc (C&L)",
+    "DegreeName": "Bachelor of Science (Computing and Law)"
+  },
+  {
+    "DegreeId": "BAcc",
+    "DegreeName": "Bachelor of Accounting"
+  },
+  {
+    "DegreeId": "BBM",
+    "DegreeName": "Bachelor of Business Managment"
+  },
+  {
+    "DegreeId": "LLB",
+    "DegreeName": "Bachelor of Law"
+  },
+  {
+    "DegreeId": "BSocSc",
+    "DegreeName": "Bachelor of Social Science"
+  },
+  {
+    "DegreeId": "JD",
+    "DegreeName": "Juris Doctor Law Programme"
+  },
+  {
+    "DegreeId": "BSc (Econ)",
+    "DegreeName": "Bachelor of Science (Economics)"
+  }
+]

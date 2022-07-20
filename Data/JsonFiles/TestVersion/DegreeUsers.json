@@ -1,0 +1,17 @@
+[
+  {
+    "UserId": "1",
+    "DegreeId": "BSc (IS)",
+    "Primary": "true"
+  },
+  {
+    "UserId": "2",
+    "DegreeId": "BSc (IS)",
+    "Primary": "true"
+  },
+  {
+    "UserId": "1",
+    "DegreeId": "BSc (C&L)",
+    "Primary": "false"
+  }
+]

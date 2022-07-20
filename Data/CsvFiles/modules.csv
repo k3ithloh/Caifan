@@ -1,0 +1,708 @@
+ModuleId,UniversityName,ModuleName,LinkToCourseOutline,Description,Faculty,AY,Semester,Credits,Difficulty,Popularity
+AH2101,National University of Singapore (NUS),Introduction to Art History,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,1,3
+AH2201,National University of Singapore (NUS),Chinese Painting: Styles and Masters,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,1,3
+AH2202,National University of Singapore (NUS),Modern Art: A Critical Introduction,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+AH2204,National University of Singapore (NUS),"Art in Southeast Asia, 4th-14th centuries CE",https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+AH3205,National University of Singapore (NUS),Southeast Asian Art and Modernity,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+CAS5101,National University of Singapore (NUS),Theorizing from Asia,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+CH2293,National University of Singapore (NUS),Introduction to Chinese Art (taught in English),https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+CH2295,National University of Singapore (NUS),Commerce and Culture in China's Past (in English),https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+CH2392,National University of Singapore (NUS),Chinese Women in Context (in English),https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EC1101E,National University of Singapore (NUS),Introduction to Economic Analysis,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EC2101,National University of Singapore (NUS),Microeconomic Analysis I,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EC2102,National University of Singapore (NUS),Macroeconomic Analysis I,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EC2104,National University of Singapore (NUS),Quantitative Methods for Economic Analysis,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EC2205,National University of Singapore (NUS),Economic Analysis of Business,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EC2303,National University of Singapore (NUS),Foundations for Econometrics,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EC2374,National University of Singapore (NUS),Economy of Modern China I,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EC3101,National University of Singapore (NUS),Microeconomic Analysis II,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EC3102,National University of Singapore (NUS),Macroeconomic Analysis II,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EC3303,National University of Singapore (NUS),Econometrics I,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EC3312,National University of Singapore (NUS),Game Theory & Applications to Economics,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EC3314,National University of Singapore (NUS),Mathematics for Economists,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EC3332,National University of Singapore (NUS),Money and Banking I,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EC3333,National University of Singapore (NUS),Financial Economics I,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EC3342,National University of Singapore (NUS),International Trade I,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EC3343,National University of Singapore (NUS),International Finance I,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EC3381,National University of Singapore (NUS),Urban Economics,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EL1101E,National University of Singapore (NUS),The Nature of Language,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EL2102,National University of Singapore (NUS),Sound Patterns in Language,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EL2151,National University of Singapore (NUS),Social Variation in English,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EL3201,National University of Singapore (NUS),Syntax,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EL3203,National University of Singapore (NUS),Semantics and Pragmatics,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EL3251,National University of Singapore (NUS),"Language, Society and Identity",https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EL3252,National University of Singapore (NUS),Language Planning and Policy,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EN1101E,National University of Singapore (NUS),An Introduction to Literary Studies,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EN2207,National University of Singapore (NUS),Gender and Sexuality in Literature,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EN2277,National University of Singapore (NUS),Love's Word: Reading across Literature and Philosophy,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EN3224,National University of Singapore (NUS),The Twentieth Century,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,3
+EN3231,National University of Singapore (NUS),American Literature I,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+EN3276,National University of Singapore (NUS),"Literature, Media and Theory",https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+EU1101E,National University of Singapore (NUS),Making of Modern Europe,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GE1101E,National University of Singapore (NUS),Geographical Journeys: Exploring World Environments,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GE2215,National University of Singapore (NUS),Introduction to GIS,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GE2231,National University of Singapore (NUS),Living Space: Introducing Social and Cultural Geography,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GE3204,National University of Singapore (NUS),Cities and Regions: Planning for Change,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GE3235,National University of Singapore (NUS),Geographies of Development,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GE3236,National University of Singapore (NUS),Transport and Communications,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GE3241,National University of Singapore (NUS),Geographies of Social Life,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GE3250,National University of Singapore (NUS),Nature and Society,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GE3251,National University of Singapore (NUS),Southeast Asia,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GE3253,National University of Singapore (NUS),Weather and Climate,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GE3254,National University of Singapore (NUS),Energy Futures: Environment and Sustainability,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GE3255,National University of Singapore (NUS),"Aquatic, Riparian and Coastal Systems",https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GEC1005,National University of Singapore (NUS),Cultural Borrowing: Japan and China,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GEC1006,National University of Singapore (NUS),Understanding Consumption,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GEC1008,National University of Singapore (NUS),Exploring Chinese Cinema: Shanghai‐Hong Kong‐Singapore,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GEC1028,National University of Singapore (NUS),Luck,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GEC1029,National University of Singapore (NUS),Worlds of Football,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GEC1030,National University of Singapore (NUS),Metropolis: The City in World History,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GEC1034,National University of Singapore (NUS),Understanding the Changing Global Economic Landscape,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GEH1053,National University of Singapore (NUS),Film Art and Human Concerns,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GEH1054,National University of Singapore (NUS),Names as Markers of Socio-cultural Identity,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GEH1062,National University of Singapore (NUS),Ghosts and Spirits in Society and Culture,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GEH1070,National University of Singapore (NUS),Traditional Chinese Knowledge of Health and Well-being,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GES1028,National University of Singapore (NUS),Singapore Society,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GES1034,National University of Singapore (NUS),We the Citizens - Understanding Singapore’s Politics,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GES1039,National University of Singapore (NUS),Cultural Performances and Practices in Singapore,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GESS1000,National University of Singapore (NUS),Global EC Dimensions of Singapore,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GESS1003,National University of Singapore (NUS),Everyday Life of Chinese Singaporeans: Past & Present (taught in English),https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GESS1005,National University of Singapore (NUS),South Asia in Singapore,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GESS1006,National University of Singapore (NUS),Ethnicity and Nation-Building: Singapore and Malaysia,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GESS1009,National University of Singapore (NUS),The Evolution of a Global City-State,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GESS1012,National University of Singapore (NUS),Islam and Contemporary Malay Society,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GESS1022,National University of Singapore (NUS),Culture and Communication in Singapore,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GESS1024,National University of Singapore (NUS),We the Citizens - Understanding Singapore’s Politics,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GESS1029,National University of Singapore (NUS),Everyday Ethics in Singapore,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GESS1032,National University of Singapore (NUS),Prominent Chinese in Colonial Singapore,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GESS1037,National University of Singapore (NUS),Gender and Sexuality: A Singaporean History,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GEX1000,National University of Singapore (NUS),Framing Bollywood: Unpacking The Magic,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GEX1005,National University of Singapore (NUS),Public Speaking and Critical Reasoning,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GEX1011,National University of Singapore (NUS),Science Fiction and Philosophy,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GEX1012,National University of Singapore (NUS),Effective Reasoning,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GEX1014,National University of Singapore (NUS),Logic,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GEX1015,National University of Singapore (NUS),"Life, the Universe, and Everything",https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GEX1026,National University of Singapore (NUS),I Do Not Think Therefore I Am,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GL1101E,National University of Singapore (NUS),Global Issues,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GL2101,National University of Singapore (NUS),Origins of the Modern World,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GL2102,National University of Singapore (NUS),Global Political Economy,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GL2104,National University of Singapore (NUS),Inquiry and Method,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GL3201,National University of Singapore (NUS),Doing Global Visual Culture,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GL4101,National University of Singapore (NUS),Research in Global Issues,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GL4881A,National University of Singapore (NUS),"Colonial, Anticolonial and Postcolonial Globalizations",https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GL4882B,National University of Singapore (NUS),Contested Globalisation: Resistance and Resilience,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GL4882D,National University of Singapore (NUS),Global Corporations and Power,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GL4883B,National University of Singapore (NUS),Climate Justice,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GL4884A,National University of Singapore (NUS),Glocal Media Worlds,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+GL4886A,National University of Singapore (NUS),Citizenship and the Politics of Belonging,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+HY1101E,National University of Singapore (NUS),Asia and the Modern World,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+HY2206,National University of Singapore (NUS),China's Imperial Past: History & Culture,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+HY2255,National University of Singapore (NUS),Islam in World History,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+HY2258,National University of Singapore (NUS),Passage to India: Modern Indian Society,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+HY2265,National University of Singapore (NUS),Buddhism in World History,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+HY3245,National University of Singapore (NUS),Engendering History/Historicising Gender,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+HY3250,National University of Singapore (NUS),Approaches to Singapore History,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+HY3257,National University of Singapore (NUS),The Philippines: A Social and Cultural History,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+HY3259,National University of Singapore (NUS),Issues in Korean Cultural History since 1945,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+HY3262,National University of Singapore (NUS),Buddhism In Southeast Asian History,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+JS1101E,National University of Singapore (NUS),Introduction to Japan,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+JS2214,National University of Singapore (NUS),Ideas and Images in Japanese Culture,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+JS2216,National University of Singapore (NUS),Postwar Japanese Film and Anime,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+JS3213,National University of Singapore (NUS),Alternative Lives in Contemporary Japan,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+JS3222,National University of Singapore (NUS),Japanese Business Management,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+JS3230,National University of Singapore (NUS),Men and Women in Modern Japanese Literature,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+LAB1201,National University of Singapore (NUS),Bahasa Indonesia 1,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+LAC1201,National University of Singapore (NUS),Chinese 1,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+LAF1201,National University of Singapore (NUS),French 1,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+LAG1201,National University of Singapore (NUS),German 1,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+LAH1201,National University of Singapore (NUS),Hindi 1,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+LAJ1201,National University of Singapore (NUS),Japanese 1,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+LAK1201,National University of Singapore (NUS),Korean 1,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+LAL1201,National University of Singapore (NUS),Tamil 1,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+LAM1201,National University of Singapore (NUS),Malay 1,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+LAR1201,National University of Singapore (NUS),Arabic 1,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+LAS1201,National University of Singapore (NUS),Spanish 1,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+LAT1201,National University of Singapore (NUS),Thai 1,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+LAV1201,National University of Singapore (NUS),Vietnamese 1,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+MS1102E,National University of Singapore (NUS),Understanding the Contemporary Malay World,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+MS2212,National University of Singapore (NUS),Law and Malay Society,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+MS2213,National University of Singapore (NUS),Families and Households - Lived Experiences,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+MS2215,National University of Singapore (NUS),The Malays in History,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+MS2220,National University of Singapore (NUS),Arts and Artists in the Nusantara,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+MS2221,National University of Singapore (NUS),Sufism in Southeast Asia,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+MS3214,National University of Singapore (NUS),Asian Traditions and Modernisation,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+MS3215,National University of Singapore (NUS),Malays and Modernization,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+MS3216,National University of Singapore (NUS),Gender and Islam,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+MS3217,National University of Singapore (NUS),"Political Economy, Ethnicity, Religion",https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+MS5101,National University of Singapore (NUS),SOCIAL SCIENCE AND MALAY STUDIES,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+NM1101E,National University of Singapore (NUS),"Communications, New Media and Society",https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+NM2201,National University of Singapore (NUS),Intercultural Communication,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+NM2207,National University of Singapore (NUS),Computational Media Literacy,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+NM3241,National University of Singapore (NUS),Cultural Studies: Theory and Practice,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+PE3101P,National University of Singapore (NUS),Decision and Social Choice,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+PH2208,National University of Singapore (NUS),Applied Ethics,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+PH2209,National University of Singapore (NUS),Philosophy of Art,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,3
+PH2211,National University of Singapore (NUS),Philosophy of Religion,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PH2212,National University of Singapore (NUS),Introduction to Continental Philosophy,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PH2213,National University of Singapore (NUS),Metaphysics,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PH2241,National University of Singapore (NUS),Philosophy of Mind,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PH2243,National University of Singapore (NUS),Epistemology,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PH3203,National University of Singapore (NUS),Moral Philosophy,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PH3217,National University of Singapore (NUS),Feminist Philosophy,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PH3245,National University of Singapore (NUS),Language and Thought,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PH3250,National University of Singapore (NUS),Quantification and Modality,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PH4202,National University of Singapore (NUS),Political Philosophy,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PH4203,National University of Singapore (NUS),Issues in Moral Philosophy,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PH4206,National University of Singapore (NUS),A Major Philosopher,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PH4214,National University of Singapore (NUS),Recent Continental European Philosophy,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PH4244,National University of Singapore (NUS),Issues in Philosophy of Mathematics,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PL1101E,National University of Singapore (NUS),Introduction to Psychology,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PL3102,National University of Singapore (NUS),Biological Psychology,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PL3103,National University of Singapore (NUS),Cognitive Psychology,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PL3104,National University of Singapore (NUS),Developmental Psychology,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PL3105,National University of Singapore (NUS),Social Psychology,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PL3106,National University of Singapore (NUS),Abnormal Psychology,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PL3242,National University of Singapore (NUS),Health Psychology,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PL3250,National University of Singapore (NUS),Human Performance,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PL3252,National University of Singapore (NUS),Social-Cognitive Perspectives on Emotion,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PL3257,National University of Singapore (NUS),Introduction to Clinical Psychology,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PL3260,National University of Singapore (NUS),Moral Development,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PS1101E,National University of Singapore (NUS),Introduction to Politics,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PS2203,National University of Singapore (NUS),Ancient Western Political Thought,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PS2234,National University of Singapore (NUS),Introduction to Comparative Politics,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PS2237,National University of Singapore (NUS),Introduction to International Relations,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PS2240,National University of Singapore (NUS),Introduction to Public Administration,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PS2249,National University of Singapore (NUS),Government and Politics of Singapore,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PS2255,National University of Singapore (NUS),Politics of the Middle East,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PS2257,National University of Singapore (NUS),Contemporary African Politics,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PS2258,National University of Singapore (NUS),Introduction to Political Theory,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PS3237,National University of Singapore (NUS),Women and Politics,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PS3257,National University of Singapore (NUS),Political Inquiry,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PS3260,National University of Singapore (NUS),Politics and the Visual,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PS3262,National University of Singapore (NUS),Managing Non-Profit Organisations,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PS3265,National University of Singapore (NUS),Civil-Military Relations,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PS3276,National University of Singapore (NUS),Comparative Political Behaviour,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PS3311,National University of Singapore (NUS),International Ethics,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PS4201,National University of Singapore (NUS),Contemporary Political Theory,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PS4203,National University of Singapore (NUS),China's Foreign Policy,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PS4209,National University of Singapore (NUS),Public Organisation Theory and Practice,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PS4220,National University of Singapore (NUS),Rhetoric and Politics,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,4,4
+PS4237,National University of Singapore (NUS),Capitalism and Political Theory,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+PS4239,National University of Singapore (NUS),Seminar in International Relations of Southeast Asia,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+PS4311,National University of Singapore (NUS),International Relations in Political Thought,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+PS4881G,National University of Singapore (NUS),Topics in CP: Politics of the Korean Peninsula,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+PS4882A,National University of Singapore (NUS),"Topics in IR: Globalisation, Security and the State",https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+SC1101E,National University of Singapore (NUS),Making Sense of Society,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+SC2218,National University of Singapore (NUS),Anthropology and the Human Condition,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+SC3101,National University of Singapore (NUS),Social Thought & Social Theory,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+SC3203,National University of Singapore (NUS),Race and Ethnic Relations,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+SC3204,National University of Singapore (NUS),Sociology of Education,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+SC3207,National University of Singapore (NUS),Cultures of Kinship,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+SE1101E,National University of Singapore (NUS),The Lands Below the Winds: Southeast Asia in the World,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+SE2224,National University of Singapore (NUS),Unmasked! An Introduction to Traditional Dance in SEA,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+SE3232,National University of Singapore (NUS),Death and Dying in Southeast Asia,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+SE4218,National University of Singapore (NUS),Majorities and Minorities in SE Asia,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+SE5151,National University of Singapore (NUS),APPROACHES TO THE STUDY OF SOUTHEAST ASIA,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+SN1101E,National University of Singapore (NUS),"Discover South Asia: People, Culture, Development",https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+SN2213,National University of Singapore (NUS),"South Asian Democracies - Violence, Conflict, and Hope",https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+SN2240,National University of Singapore (NUS),Disease Diplomacy: Global Health in Asia,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+SN2261,National University of Singapore (NUS),The Emergence of Contemporary South Asia,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+SN2271,National University of Singapore (NUS),Religion and Society in South Asia,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+SN2277,National University of Singapore (NUS),Indian Communities in Southeast Asia,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+SN3223,National University of Singapore (NUS),International Relations of South Asia,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+SN3281,National University of Singapore (NUS),The Story of Indian Business,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+SW1101E,National University of Singapore (NUS),Social Work: A Heart-Head-Hand Connection,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+TS1101E,National University of Singapore (NUS),Introduction to Theatre and Performance,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+TS2233,National University of Singapore (NUS),Making Contemporary Performance,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+TS2239,National University of Singapore (NUS),Major Playwrights of the 20th Century,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+TS2240,National University of Singapore (NUS),Voice Studies and Production,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+TS3238,National University of Singapore (NUS),Acting for the Screen,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+TS3246,National University of Singapore (NUS),Shakespeare and Asian Performances,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+XD3103,National University of Singapore (NUS),Planet Earth,https://luminus.nus.edu.sg,Sample Description,Arts and Social Sciences,22/23,1,1,3,4
+ACC1701X,National University of Singapore (NUS),Accounting for Decision Makers,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+ACC2706,National University of Singapore (NUS),Managerial Accounting,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+BSE3701,National University of Singapore (NUS),Macroeconomic Principles in the Global Economy,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+BSE3702,National University of Singapore (NUS),Economics of Strategy,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+BSE3703,National University of Singapore (NUS),Econometrics for Business I,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+BSE4711,National University of Singapore (NUS),Econometrics for Business II,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+BSN3701,National University of Singapore (NUS),Technological Innovation,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+BSN3702,National University of Singapore (NUS),New Venture Creation,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+BSN3703,National University of Singapore (NUS),Entrepreneurial Strategy,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+BSN4811,National University of Singapore (NUS),Innovation and Productivity,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+BSP1703,National University of Singapore (NUS),Managerial Economics,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+BSP3701A,National University of Singapore (NUS),Strategic Management,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+BSP3701B,National University of Singapore (NUS),Strategic Management,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+BSP3701C,National University of Singapore (NUS),Strategic Management,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+DAO1704X,National University of Singapore (NUS),Decision Analytics using Spreadsheets,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+DAO2702,National University of Singapore (NUS),Programming for Business Analytics,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+DAO2703,National University of Singapore (NUS),Operations and Technology Management,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+DBA3702,National University of Singapore (NUS),Descriptive Analytics with R,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+DBA3803,National University of Singapore (NUS),Predictive Analytics in Business,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+DOS3703,National University of Singapore (NUS),Service Operations Management,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+DOS3704,National University of Singapore (NUS),Operations Strategy,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+FIN2704X,National University of Singapore (NUS),Finance,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+FIN3701A,National University of Singapore (NUS),Corporate Finance,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+FIN3701B,National University of Singapore (NUS),Corporate Finance,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+FIN3702A,National University of Singapore (NUS),Investment Analysis and Portfolio Management,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+FIN3702B,National University of Singapore (NUS),Investment Analysis and Portfolio Management,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+FIN3702C,National University of Singapore (NUS),Investment Analysis and Portfolio Management,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+FIN3703A,National University of Singapore (NUS),Financial Markets,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+FIN3703B,National University of Singapore (NUS),Financial Markets,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+MKT1705X,National University of Singapore (NUS),Principles of Marketing,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+MKT3701A,National University of Singapore (NUS),Marketing Strategy: Analysis and Practice,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+MKT3701B,National University of Singapore (NUS),Marketing Strategy: Analysis and Practice,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+MKT3702A,National University of Singapore (NUS),Consumer Behaviour,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+MKT3702B,National University of Singapore (NUS),Consumer Behaviour,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+MNO1706X,National University of Singapore (NUS),Organisational Behavior,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+MNO3701,National University of Singapore (NUS),Human Capital Management,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+MNO3702,National University of Singapore (NUS),Negotiation and Conflict Management,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+MNO3703,National University of Singapore (NUS),Leading in the 21st Century,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+RE1701,National University of Singapore (NUS),Urban Land Use and Development,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+RE1702,National University of Singapore (NUS),Real Estate Data Analytics,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+RE1703,National University of Singapore (NUS),Principles of Law for Real Estate,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+RE2701,National University of Singapore (NUS),Urban Planning,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+RE2702,National University of Singapore (NUS),Land Law,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+RE2708,National University of Singapore (NUS),Computational Thinking and Programming for Real Estate,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+RE3701,National University of Singapore (NUS),Real Estate Investment Analysis,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+RE3702,National University of Singapore (NUS),Property Tax and Statutory Valuation,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+RE3803,National University of Singapore (NUS),Strategic Asset Management,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+RE3807,National University of Singapore (NUS),Corporate Finance for Real Estate,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+RE3901,National University of Singapore (NUS),Advanced Urban Planning,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+RE4701,National University of Singapore (NUS),Real Estate Development,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+RE4702,National University of Singapore (NUS),Professional Practice and Ethics,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+RE4803,National University of Singapore (NUS),REIT and Business Trust Management,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+RE4804,National University of Singapore (NUS),Real Estate Securitisation,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+TR2201,National University of Singapore (NUS),Entrepreneurial Marketing,https://luminus.nus.edu.sg,Sample Description,Business,22/23,1,1,3,4
+BT1101,National University of Singapore (NUS),Introduction to Business Analytics,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+BT4212,National University of Singapore (NUS),Search Engine Optimization and Analytics,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+BT4222,National University of Singapore (NUS),Mining Web Data for Business Insights,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+BT4240,National University of Singapore (NUS),Machine Learning for Predictive Data Analytics,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CP5104,National University of Singapore (NUS),Graduate Project in Computing,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS1010J,National University of Singapore (NUS),Programming Methodology,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS1231,National University of Singapore (NUS),Discrete Structures,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS2030,National University of Singapore (NUS),Programming Methodology II,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS2040C,National University of Singapore (NUS),Data Structures and Algorithms,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS2100,National University of Singapore (NUS),Computer Organisation,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS2104,National University of Singapore (NUS),Programming Language Concepts,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS2107,National University of Singapore (NUS),Introduction to Information Security,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS2113,National University of Singapore (NUS),Software Engineering & Object-Oriented Programming,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS2220,National University of Singapore (NUS),Introduction to Computational Biology,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS3103,National University of Singapore (NUS),Computer Networks Practice,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS3210,National University of Singapore (NUS),Parallel Computing,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS3219,National University of Singapore (NUS),Software Engineering Principles and Patterns,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS3230,National University of Singapore (NUS),Design and Analysis of Algorithms,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS3235,National University of Singapore (NUS),Computer Security,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS3237,National University of Singapore (NUS),Introduction to Internet of Things,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS3240,National University of Singapore (NUS),Interaction Design,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS3241,National University of Singapore (NUS),Computer Graphics,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS4211,National University of Singapore (NUS),Formal Methods for Software Engineering,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS4212,National University of Singapore (NUS),Compiler Design,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS4223,National University of Singapore (NUS),Multi-core Architectures,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS4224,National University of Singapore (NUS),Distributed Databases,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS4226,National University of Singapore (NUS),Internet Architecture,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS4234,National University of Singapore (NUS),Optimisation Algorithms,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS4236,National University of Singapore (NUS),Cryptography Theory and Practice,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS4239,National University of Singapore (NUS),Software Security,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS4243,National University of Singapore (NUS),Computer Vision and Pattern Recognition,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS4246,National University of Singapore (NUS),AI Planning and Decision Making,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS4248,National University of Singapore (NUS),Natural Language Processing,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS5229,National University of Singapore (NUS),Advanced Computer Networks,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS5236,National University of Singapore (NUS),Advanced Automata Theory,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS5240,National University of Singapore (NUS),Theoretical Foundations in MultiMedia,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS5322,National University of Singapore (NUS),Database Security,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+CS6203,National University of Singapore (NUS),Advanced Topics in Database Systems,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+IS3150,National University of Singapore (NUS),Digital Media Marketing,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+IS5005,National University of Singapore (NUS),Digital Engagement,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+IS5007,National University of Singapore (NUS),Strategising for Global IT-enabled Business Success,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+IS5116,National University of Singapore (NUS),Digital Entrepreneurship,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+IS6002,National University of Singapore (NUS),Quantitative Methods for IS Research,https://luminus.nus.edu.sg,Sample Description,Computing,22/23,1,1,3,4
+AR2221,National University of Singapore (NUS),History and Theory of Southeast Asia Architecture,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+AR2225,National University of Singapore (NUS),Reading Visual Images,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+AR3101,National University of Singapore (NUS),Design 5,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+AR3223,National University of Singapore (NUS),Introduction to Urbanism,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+AR5321,National University of Singapore (NUS),Advanced Architectural Integration,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+AR5801,National University of Singapore (NUS),Options Design Research Studio 1,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+BN3202,National University of Singapore (NUS),Musculoskeletal Biomechanics,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+BN4301,National University of Singapore (NUS),Principles Of Tissue Engineering,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+BN4403,National University of Singapore (NUS),Cellular Bioengineering,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+BN4501,National University of Singapore (NUS),Engineering Biology,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+BN5104,National University of Singapore (NUS),QUANTITATIVE PHYSIOLOGY PRINCIPLES IN BIOENGINEERING,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+BN5208,National University of Singapore (NUS),Biomedical Quality and Regulatory Systems,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+BPS5111,National University of Singapore (NUS),Integrated Building Design,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+BPS5221,National University of Singapore (NUS),Microclimate Design,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+BPS5223,National University of Singapore (NUS),Building Energy Performance - Passive Systems,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+BPS5224,National University of Singapore (NUS),Building Energy Performance - Active Systems,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+BPS5229,National University of Singapore (NUS),Data Science for the Built Environment,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+CE2112,National University of Singapore (NUS),Soil Mechanics,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+CE2134,National University of Singapore (NUS),Fluid Mechanics,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+CE2183,National University of Singapore (NUS),Construction Project Management,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+CE2407,National University of Singapore (NUS),Engineering & Uncertainty Analyses,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+CE3116,National University of Singapore (NUS),Foundation Engineering,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+CE3121,National University of Singapore (NUS),Transportation Engineering,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+CE3165,National University of Singapore (NUS),Structural Concrete Design,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+CN2103,National University of Singapore (NUS),Mass and Energy Balance,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+CN2104,National University of Singapore (NUS),Chemical Engineering Thermodynamics,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+CN2122A,National University of Singapore (NUS),Fluid Mechanics,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+CN2125,National University of Singapore (NUS),Heat & Mass Transfer,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+CN3121,National University of Singapore (NUS),Process Dynamics & Control,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+CN3124A,National University of Singapore (NUS),Fluid-Particle Systems,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+CN3132,National University of Singapore (NUS),Separation Processes,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+CN3135,National University of Singapore (NUS),"Process Safety, Health and Environment",https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+CN3421A,National University of Singapore (NUS),Process Modeling And Numerical Simulation,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+CN4203R,National University of Singapore (NUS),Polymer Engineering,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+CN4215R,National University of Singapore (NUS),Food Technology and Engineering,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+CN4218,National University of Singapore (NUS),Particle Technology Fundamentals and Applications,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+CN4238R,National University of Singapore (NUS),Chemical & Biochemical Process Modeling,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+CN4240R,National University of Singapore (NUS),Unit Operations and Processes for Effluent Treatment,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+CN4250,National University of Singapore (NUS),Chemical Product Design,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+EE2023,National University of Singapore (NUS),Signals and Systems,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+EE2026,National University of Singapore (NUS),Digital Design,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+EE2027,National University of Singapore (NUS),Electronic Circuits,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+EE2028,National University of Singapore (NUS),Microcontroller Programming and Interfacing,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+EE3104C,National University of Singapore (NUS),Introduction to RF and Microwave Systems & Circuits,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+EE3331C,National University of Singapore (NUS),Feedback Control Systems,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+EE3408C,National University of Singapore (NUS),Integrated Analog Design,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+EE3431C,National University of Singapore (NUS),Microelectronics Materials and Devices,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+EE3731C,National University of Singapore (NUS),Signal Analytics,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+EE4031,National University of Singapore (NUS),Intellectual Property: Harnessing Innovation,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+EE4032,National University of Singapore (NUS),Blockchain Engineering,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+EE4101,National University of Singapore (NUS),RF Communications,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+EE4112,National University of Singapore (NUS),Radio Frequency Design and Systems,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+EE4204,National University of Singapore (NUS),Computer Networks,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+EE4302,National University of Singapore (NUS),Advanced Control Systems,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+EE4303,National University of Singapore (NUS),Industrial Control Systems,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+EE4435,National University of Singapore (NUS),Modern Transistors and Memory Devices,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+EE4436,National University of Singapore (NUS),Fabrication Process Technology,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+EE4501,National University of Singapore (NUS),Power System Management And Protection,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+EE4502,National University of Singapore (NUS),Electric Drives & Control,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+EE4704,National University of Singapore (NUS),Image Processing and Analysis,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+ESE2001,National University of Singapore (NUS),Environmental Challenges in the Anthropocene,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+ESE3201,National University of Singapore (NUS),Air Quality in Changing Environments,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,3,4
+ESE3401,National University of Singapore (NUS),Sustainable Urban Water Technologies,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ESE4404,National University of Singapore (NUS),Bioenergy,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ESP2107,National University of Singapore (NUS),Numerical Methods and Statistics,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ESP3201,National University of Singapore (NUS),Machine Learning in Robotics and Engineering,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ESP3902,National University of Singapore (NUS),Major Design Project I,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+GES1019,National University of Singapore (NUS),Managing Singapore's Built Environment,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ID1223,National University of Singapore (NUS),Principles and Approaches to Design,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ID2117,National University of Singapore (NUS),The Art of Imaginative Sketching,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ID2322,National University of Singapore (NUS),Materials and Production,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ID3105,National University of Singapore (NUS),Design Platforms 2,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ID3124,National University of Singapore (NUS),Creative Communication & Design Argumentation,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ID3125,National University of Singapore (NUS),"Colours, Materials & Finishing",https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ID3126,National University of Singapore (NUS),Motion Design,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+IE2110,National University of Singapore (NUS),Operations Research I,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+IE3101,National University of Singapore (NUS),Statistics For Engineering Applications,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+LA5222,National University of Singapore (NUS),Urban Ecology and Design,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ME2102,National University of Singapore (NUS),Engineering Innovation and Modelling,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ME2112,National University of Singapore (NUS),Strength of Materials,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ME2115,National University of Singapore (NUS),Mechanics Of Machines,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ME2121,National University of Singapore (NUS),Engineering Thermodynamics and Heat Transfer,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ME2134,National University of Singapore (NUS),Fluid Mechanics I,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ME2142,National University of Singapore (NUS),Feedback Control Systems,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ME2162,National University of Singapore (NUS),MANUFACTURING PROCESSES,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ME3122,National University of Singapore (NUS),Heat Transfer,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ME3211,National University of Singapore (NUS),Mechanics Of Solids,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ME3242,National University of Singapore (NUS),Automation,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ME3252,National University of Singapore (NUS),Materials for Mechanical Engineering,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ME3261,National University of Singapore (NUS),Computer-Aided Design And Manufacturing,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ME3263,National University of Singapore (NUS),Design For Manufacturing And Assembly,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ME4223,National University of Singapore (NUS),Thermal Environmental Engineering,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ME4226,National University of Singapore (NUS),Energy and Thermal Systems,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ME4233,National University of Singapore (NUS),Computational Methods In Fluid Mechanics,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ME4241,National University of Singapore (NUS),"Aircraft Performance, Stability and Control",https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ME4245,National University of Singapore (NUS),Robot Mechanics and Control,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+ME4291,National University of Singapore (NUS),Finite Element Analysis,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+MLE2101,National University of Singapore (NUS),Introduction to Structure of Materials,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+MLE2102,National University of Singapore (NUS),Principles of Renewable Energy,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+MLE2103,National University of Singapore (NUS),Phase Transformation and Kinetics,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+MLE3102,National University of Singapore (NUS),Degradation and Failure of Materials,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+MLE3104,National University of Singapore (NUS),Polymeric and Composite Materials,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+MLE3105,National University of Singapore (NUS),Dielectric and Magnetic Materials,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+MLE3203,National University of Singapore (NUS),Engineering Materials,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+MLE4201,National University of Singapore (NUS),Advanced Materials Characterisation,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+MLE4203,National University of Singapore (NUS),Polymeric Biomedical Materials,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+MLE4212,National University of Singapore (NUS),Advanced Structural Materials,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+MLE4219,National University of Singapore (NUS),Materials for Optics: from Quantum Light to Nanodevices,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+MLE4221,National University of Singapore (NUS),Emerging materials for renewable fuels and clean water,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+PF2205,National University of Singapore (NUS),Project Finance,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+PF2305,National University of Singapore (NUS),Event Management,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+PF3205,National University of Singapore (NUS),Advanced Measurement,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+PF3208,National University of Singapore (NUS),Project Leadership,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+PF3209,National University of Singapore (NUS),Building Information Modelling,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+PF3210,National University of Singapore (NUS),Total Building Performance,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+PF3211,National University of Singapore (NUS),AI Applications for the Built Environment,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+PF3307,National University of Singapore (NUS),Strategic Facilities Management,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+PF3504,National University of Singapore (NUS),Energy Management,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+PF4209,National University of Singapore (NUS),Construction Enterprise Management,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+PF4211,National University of Singapore (NUS),Construction 3D Printing,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+PF4213,National University of Singapore (NUS),Building Energy Analysis and Simulation,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+PF4309,National University of Singapore (NUS),Infrastructure Operations and Maintenance,https://luminus.nus.edu.sg,Sample Description,Design and Engineering,22/23,1,1,4,4
+LL4002V,National University of Singapore (NUS),Admiralty Law & Practice,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4004V,National University of Singapore (NUS),Aviation Law & Policy,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4006V,National University of Singapore (NUS),Banking Law,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4008AV,National University of Singapore (NUS),Carriage of Goods By Sea,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4009V,National University of Singapore (NUS),Chinese Legal Tradition And Legal Chinese,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4019V,National University of Singapore (NUS),Credit & Security,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4029V,National University of Singapore (NUS),International Commercial Arbitration,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4031V,National University of Singapore (NUS),International Environmental Law & Policy,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4032,National University of Singapore (NUS),International Investment Law,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4050V,National University of Singapore (NUS),Public International Law,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4056BV,National University of Singapore (NUS),Tax Planning And Policy,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4060B,National University of Singapore (NUS),World Trade Law,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4063V,National University of Singapore (NUS),Business & Finance For Lawyers,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4064V,National University of Singapore (NUS),Competition Law and Policy,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4070V,National University of Singapore (NUS),Foundations Of Intellectual Property Law,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4109V,National University of Singapore (NUS),International Law & Asia,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4164V,National University of Singapore (NUS),International Projects Law & Practice,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4187,National University of Singapore (NUS),Philosophical Foundations of Contract Law,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4191,National University of Singapore (NUS),Wealth Management Law,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4214,National University of Singapore (NUS),International and Comparative Oil and Gas Law,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4219,National University of Singapore (NUS),The Trial of Jesus in Western Legal Thought,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4237V,National University of Singapore (NUS),"Law, Institutions, and Business in Greater China",https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4244V,National University of Singapore (NUS),CRIMINAL PRACTICE,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4251V,National University of Singapore (NUS),International Humanitarian Law,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4276,National University of Singapore (NUS),Advanced Contract Law,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4285V,National University of Singapore (NUS),International Dispute Settlement,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4287V,National University of Singapore (NUS),ASEAN Law and Policy,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4292V,National University of Singapore (NUS),State Responsibility: Theory and Practice,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4320,National University of Singapore (NUS),International Space Law,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4322V,National University of Singapore (NUS),Trade Finance Law,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4328,National University of Singapore (NUS),Sports Law & Arbitration,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4335V,National University of Singapore (NUS),Multinational Enterprises and International Law,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4342V,National University of Singapore (NUS),Taxation of Cross-Border Commercial Transactions I,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4382V,National University of Singapore (NUS),Private International Law,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4405A,National University of Singapore (NUS),LAW OF INTELLECTUAL PROPERTY (A),https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4407,National University of Singapore (NUS),Law Of Insurance,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4433V,National University of Singapore (NUS),Global Data Privacy Law,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4436V,National University of Singapore (NUS),Family Law and Practice,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+LL4454V,National University of Singapore (NUS),Commercial Conflict of Laws,https://luminus.nus.edu.sg,Sample Description,Law,22/23,1,1,4,4
+GEC1023,National University of Singapore (NUS),Social History of the Piano,https://luminus.nus.edu.sg,Sample Description,Music,22/23,1,1,4,4
+GESS1015,National University of Singapore (NUS),Western Music within a Singaporean Context,https://luminus.nus.edu.sg,Sample Description,Music,22/23,1,1,4,4
+MUA1165,National University of Singapore (NUS),Music and Machines,https://luminus.nus.edu.sg,Sample Description,Music,22/23,1,1,4,4
+MUA1166,National University of Singapore (NUS),Introduction to Computing Media in Max,https://luminus.nus.edu.sg,Sample Description,Music,22/23,1,1,4,4
+MUA1223,National University of Singapore (NUS),Desktop Mixing Production,https://luminus.nus.edu.sg,Sample Description,Music,22/23,1,1,4,4
+MUA1270,National University of Singapore (NUS),Interdisciplinary Electronic Arts Survey,https://luminus.nus.edu.sg,Sample Description,Music,22/23,1,1,4,4
+MUA2251,National University of Singapore (NUS),Live Interactivity,https://luminus.nus.edu.sg,Sample Description,Music,22/23,1,1,4,4
+MUA2271,National University of Singapore (NUS),Virtual Instrument Sound Design,https://luminus.nus.edu.sg,Sample Description,Music,22/23,1,1,4,4
+MUA3168,National University of Singapore (NUS),Intermediate Area Study,https://luminus.nus.edu.sg,Sample Description,Music,22/23,1,1,4,4
+MUA3213,National University of Singapore (NUS),Music Notation and Engraving,https://luminus.nus.edu.sg,Sample Description,Music,22/23,1,1,4,4
+MUA3228,National University of Singapore (NUS),Re-imagining Pianism through Analysis,https://luminus.nus.edu.sg,Sample Description,Music,22/23,1,1,4,4
+MUA4101,National University of Singapore (NUS),Composition Major Study 4A,https://luminus.nus.edu.sg,Sample Description,Music,22/23,1,1,4,4
+MUH2201,National University of Singapore (NUS),Classical Styles and Romantic Spirits,https://luminus.nus.edu.sg,Sample Description,Music,22/23,1,1,4,4
+MUL1105,National University of Singapore (NUS),Italian for Musicians 1,https://luminus.nus.edu.sg,Sample Description,Music,22/23,1,1,4,4
+MUL2107,National University of Singapore (NUS),French for Musicians 1,https://luminus.nus.edu.sg,Sample Description,Music,22/23,1,1,4,4
+MUL2109,National University of Singapore (NUS),German for Musicians 1,https://luminus.nus.edu.sg,Sample Description,Music,22/23,1,1,4,4
+MUT1201,National University of Singapore (NUS),Introduction to Classical Music Composition,https://luminus.nus.edu.sg,Sample Description,Music,22/23,1,1,4,4
+GEC1015,National University of Singapore (NUS),Public Health in Action,https://luminus.nus.edu.sg,Sample Description,Public Health,22/23,1,1,4,4
+SPH2003,National University of Singapore (NUS),Systems and Policies to improve Health,https://luminus.nus.edu.sg,Sample Description,Public Health,22/23,1,1,4,4
+SPH2004,National University of Singapore (NUS),"Lifestyle, Behaviour and Public Health",https://luminus.nus.edu.sg,Sample Description,Public Health,22/23,1,1,4,4
+SPH2005,National University of Singapore (NUS),"Health, Society and the Social Determinants",https://luminus.nus.edu.sg,Sample Description,Public Health,22/23,1,1,4,4
+SPH2401,National University of Singapore (NUS),Introduction to Global Health,https://luminus.nus.edu.sg,Sample Description,Public Health,22/23,1,1,4,4
+SPH2402,National University of Singapore (NUS),Health in the Later Years,https://luminus.nus.edu.sg,Sample Description,Public Health,22/23,1,1,4,4
+SPH3101,National University of Singapore (NUS),Biostatistics for Public Health,https://luminus.nus.edu.sg,Sample Description,Public Health,22/23,1,1,4,4
+SPH3403,National University of Singapore (NUS),Public Health Economics,https://luminus.nus.edu.sg,Sample Description,Public Health,22/23,1,1,4,4
+PP5179,National University of Singapore (NUS),Environmental Social Science,https://luminus.nus.edu.sg,Sample Description,Public Policy,22/23,1,1,4,4
+PP5196,National University of Singapore (NUS),Education Economics and Policy,https://luminus.nus.edu.sg,Sample Description,Public Policy,22/23,1,1,4,4
+PP5198,National University of Singapore (NUS),Chinese Political Leadership and Economic Development,https://luminus.nus.edu.sg,Sample Description,Public Policy,22/23,1,1,4,4
+PP5212,National University of Singapore (NUS),"Financial Issues, Trade and Investment in Asia",https://luminus.nus.edu.sg,Sample Description,Public Policy,22/23,1,1,4,4
+PP5234,National University of Singapore (NUS),Economics of Developing Countries,https://luminus.nus.edu.sg,Sample Description,Public Policy,22/23,1,1,4,4
+PP5278,National University of Singapore (NUS),HEALTH ECONOMICS AND PUBLIC POLICY,https://luminus.nus.edu.sg,Sample Description,Public Policy,22/23,1,1,4,4
+PP5288,National University of Singapore (NUS),Labour Market Issues and Public Policy,https://luminus.nus.edu.sg,Sample Description,Public Policy,22/23,1,1,4,4
+PP5515,National University of Singapore (NUS),Gender and Development,https://luminus.nus.edu.sg,Sample Description,Public Policy,22/23,1,1,4,4
+BL5201,National University of Singapore (NUS),Structural Biology And Proteomics,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+BL5207A,National University of Singapore (NUS),Topics In Developmental Biology,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+BL5229,National University of Singapore (NUS),Fundamentals in Biophysical Sciences,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+BL5232,National University of Singapore (NUS),Introduction to Bioimaging,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+BL5236,National University of Singapore (NUS),Introduction to Electron Microscopy for Life Sciences,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+CM3212,National University of Singapore (NUS),Transition Metal Chemistry,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+CM3221,National University of Singapore (NUS),Organic Synthesis: The Disconnection Approach,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+CM3242,National University of Singapore (NUS),Instrumental Analysis II,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+CM3252,National University of Singapore (NUS),Polymer Chemistry 1,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+CM3261,National University of Singapore (NUS),Environmental Chemistry,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+CM4225,National University of Singapore (NUS),Organic Spectroscopy,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+CM4227,National University of Singapore (NUS),Chemical Biology,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+CM4242,National University of Singapore (NUS),Advanced Analytical Techniques,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+CM4251,National University of Singapore (NUS),Characterization Techniques in Materials Chemistry,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+CM4254,National University of Singapore (NUS),Chemistry of Semiconductors,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+CM4274,National University of Singapore (NUS),The Art and Methodology in Total Synthesis,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+CM5221,National University of Singapore (NUS),ADVANCED ORGANIC SYNTHESIS,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+CM5237,National University of Singapore (NUS),Advanced Optical Spectroscopy and Imaging,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+CM5241,National University of Singapore (NUS),Modern Analytical Techniques,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+CM5268,National University of Singapore (NUS),Advanced Organic Materials,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+DSA4211,National University of Singapore (NUS),High-Dimensional Statistical Analysis,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+FST2102B,National University of Singapore (NUS),Chemistry of Food Components,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+FST3101,National University of Singapore (NUS),Food Microbiology & Fermentation,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+FST3103,National University of Singapore (NUS),Advanced Food Engineering,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+FST3105,National University of Singapore (NUS),Food Product Development and Packaging,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+FST3106,National University of Singapore (NUS),Sensory and Flavour Science,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+FST3202,National University of Singapore (NUS),Nutrition and Disease Prevention,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+FST3203,National University of Singapore (NUS),Vitamins & Minerals in Health & Diseases,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+FST4202,National University of Singapore (NUS),Nutritional Biochemistry,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+GEH1034,National University of Singapore (NUS),Clean Energy and Storage,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+GET1020,National University of Singapore (NUS),Darwin and Evolution,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM1301,National University of Singapore (NUS),General Biology,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM1307,National University of Singapore (NUS),Waste and Our Environment,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM2106,National University of Singapore (NUS),Fundamental Biochemistry,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM2212,National University of Singapore (NUS),Human Anatomy,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM2233,National University of Singapore (NUS),Cell Biology,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM2241,National University of Singapore (NUS),Introductory Bioinformatics,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM2251,National University of Singapore (NUS),Ecology and Environment,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM2252,National University of Singapore (NUS),Biodiversity,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM2288,National University of Singapore (NUS),Basic UROPS in Life Sciences I,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM2289,National University of Singapore (NUS),Basic UROPS in Life Sciences II,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM3210,National University of Singapore (NUS),Metabolism and Regulation,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM3211,National University of Singapore (NUS),Fundamental Pharmacology,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM3223,National University of Singapore (NUS),Immunology,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM3227,National University of Singapore (NUS),General Virology,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM3231,National University of Singapore (NUS),Protein Structure and Function,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM3233,National University of Singapore (NUS),Developmental Biology,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM3234,National University of Singapore (NUS),Biological Imaging of Growth and Form,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM3245,National University of Singapore (NUS),RNA Biology and Technology,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM3246,National University of Singapore (NUS),Synthetic Biology,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM3254,National University of Singapore (NUS),Ecology of Aquatic Environments,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM3258,National University of Singapore (NUS),Comparative Botany,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM3265,National University of Singapore (NUS),Entomology,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM3288,National University of Singapore (NUS),Advanced UROPS in Life Sciences I,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM3289,National University of Singapore (NUS),Advanced UROPS in Life Sciences II,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM4211,National University of Singapore (NUS),Toxicology,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM4213,National University of Singapore (NUS),Systems Neurobiology,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM4214,National University of Singapore (NUS),Cancer Pharmacology,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM4221,National University of Singapore (NUS),Drug Discovery and Clinical Trials,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM4222,National University of Singapore (NUS),Advanced Immunology,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM4226,National University of Singapore (NUS),Infection and Immunity,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM4227,National University of Singapore (NUS),Stem Cell Biology,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM4232,National University of Singapore (NUS),Advanced Cell Biology,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM4242,National University of Singapore (NUS),Protein Engineering,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM4251,National University of Singapore (NUS),Plant Growth and Development,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM4257,National University of Singapore (NUS),Aquatic Vertebrate Diversity,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM4259,National University of Singapore (NUS),Evolutionary Genetics of Reproduction,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM4260,National University of Singapore (NUS),Plankton Ecology,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM4267,National University of Singapore (NUS),Light & Vision in Animal Communication,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+LSM4268,National University of Singapore (NUS),Environmental Bioacoustics,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA1100,National University of Singapore (NUS),Basic Discrete Mathematics,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA1301,National University of Singapore (NUS),Introductory Mathematics,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA1521,National University of Singapore (NUS),Calculus for Computing,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA2101,National University of Singapore (NUS),Linear Algebra II,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA2104,National University of Singapore (NUS),Multivariable Calculus,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA2108,National University of Singapore (NUS),Mathematical Analysis I,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA2213,National University of Singapore (NUS),Numerical Analysis I,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA2214,National University of Singapore (NUS),Combinatorics and Graphs I,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA2311,National University of Singapore (NUS),Techniques in Advanced Calculus,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA3205,National University of Singapore (NUS),Set Theory,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA3209,National University of Singapore (NUS),Metric and Topological Spaces,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA3220,National University of Singapore (NUS),Ordinary Differential Equations,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA3236,National University of Singapore (NUS),Non-Linear Programming,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA3238,National University of Singapore (NUS),Stochastic Processes I,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA3259,National University of Singapore (NUS),Mathematical Methods in Genomics,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA3264,National University of Singapore (NUS),Mathematical Modelling,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA3269,National University of Singapore (NUS),Mathematical Finance I,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA4203,National University of Singapore (NUS),Galois Theory,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA4230,National University of Singapore (NUS),Matrix Computation,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA4235,National University of Singapore (NUS),Topics in Graph Theory,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA4254,National University of Singapore (NUS),Discrete Optimization,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA4262,National University of Singapore (NUS),Measure and Integration,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA4270,National University of Singapore (NUS),Data Modelling and Computation,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA5203,National University of Singapore (NUS),Graduate Algebra I,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA5205,National University of Singapore (NUS),Graduate Analysis I,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA5233,National University of Singapore (NUS),Computational Mathematics,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA5243,National University of Singapore (NUS),Advanced Mathematical Programming,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA5249,National University of Singapore (NUS),Stochastic Processes and Algorithms,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+MA5252,National University of Singapore (NUS),Methods of Applied Mathematics,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+PC1421,National University of Singapore (NUS),Physics for Life Sciences,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+PC2267,National University of Singapore (NUS),Biophysics I,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+PC3130,National University of Singapore (NUS),Quantum Mechanics II,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+PC3231,National University of Singapore (NUS),Electricity & Magnetism II,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+PC3232,National University of Singapore (NUS),Nuclear & Particle Physics,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+PC3235,National University of Singapore (NUS),Solid State Physics I,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+PC3238,National University of Singapore (NUS),Fluid Dynamics,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+PC3247,National University of Singapore (NUS),Modern Optics,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+PC4230,National University of Singapore (NUS),Quantum Mechanics III,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+PC4240,National University of Singapore (NUS),Solid State Physics II,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+PC4241,National University of Singapore (NUS),Statistical Mechanics,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+PC4248,National University of Singapore (NUS),General Relativity,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+PC4249,National University of Singapore (NUS),Astrophysics II,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+PC4259,National University of Singapore (NUS),Surface Physics,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+PC4267,National University of Singapore (NUS),Biophysics III,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+PC5204B,National University of Singapore (NUS),Selected Topics in Physics: Analytic Approximations,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+PC5205,National University of Singapore (NUS),TOPICS IN SURFACE PHYSICS,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+PC5209,National University of Singapore (NUS),Accelerator Based Materials Characterisation,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+PC5228,National University of Singapore (NUS),Quantum Information and Computation,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+PR5211,National University of Singapore (NUS),Pharmaceutical and Biomedical Analysis,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+PR5217,National University of Singapore (NUS),Formulation Science,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+QF4102,National University of Singapore (NUS),Financial Modelling and Computation,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+QF5210,National University of Singapore (NUS),Financial Time Series: Theory and Computation,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+ST1131,National University of Singapore (NUS),Introduction to Statistics and Statistical Computing,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+ST2132,National University of Singapore (NUS),Mathematical Statistics,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+ST2137,National University of Singapore (NUS),Statistical Computing and Programming,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+ST2334,National University of Singapore (NUS),Probability and Statistics,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+ST3131,National University of Singapore (NUS),Regression Analysis,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+ST3239,National University of Singapore (NUS),Survey Methodology,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+ST3248,National University of Singapore (NUS),Statistical Learning I,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+ST4231,National University of Singapore (NUS),Computer Intensive Statistical Methods,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+ST4233,National University of Singapore (NUS),Linear Models,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+ST4241,National University of Singapore (NUS),Design & Analysis of Clinical Trials,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+ST4245,National University of Singapore (NUS),Statistical Methods for Finance,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+ST4250,National University of Singapore (NUS),Multivariate Statistical Analysis,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+ST4253,National University of Singapore (NUS),Applied Time Series Analysis,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+ST5214,National University of Singapore (NUS),Advanced Probability Theory,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+ST5222,National University of Singapore (NUS),Advanced Topics in Applied Statistics,https://luminus.nus.edu.sg,Sample Description,Science,22/23,1,1,4,4
+COR1305,Singapore Managment University,Sprdsheet Modeling & Analytics,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,5,4
+COR-IS1702,Singapore Managment University,Computational Thinking,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,5,4
+CS101,Singapore Managment University,Programming Fundamentals I,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,1,4
+CS103,Singapore Managment University,Linear Algebra 4 Cmpting App,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,4,4
+CS104,Singapore Managment University,Math Foundations of Computing,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+CS201,Singapore Managment University,Data Structures and Algorithms,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+CS203,Singapore Managment University,Collaborative Software Devmt,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+CS204,Singapore Managment University,Interconnection of CPS,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+CS301,Singapore Managment University,IT Solution Architecture,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+CS302,Singapore Managment University,IT Solution Lifecycle Mgmt,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+CS420,Singapore Managment University,Introduction to AI,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+CS421,Singapore Managment University,Principles of Machine Learning,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+CS422,Singapore Managment University,"Reason'g, Plann'g, Learn'g",https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+CS425,Singapore Managment University,Natural Language Communication,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+CS440,Singapore Managment University,Foundations of Cybersecurity,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+CS443,Singapore Managment University,Software and Systems Security,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+CS444,Singapore Managment University,Strategic Cybersecurity Mgmt,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+CS460,Singapore Managment University,Foundations of Cyber-Phy Sys,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+CS462,Singapore Managment University,IoT: Tech & Appln,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+CS480,Singapore Managment University,CS Project Experience,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS105,Singapore Managment University,Business Data Management,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS110,Singapore Managment University,Info Systems & Innovation,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS111,Singapore Managment University,Intro to Programming,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS113,Singapore Managment University,Web Application Development I,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS210,Singapore Managment University,Biz Proc. Analysis & Soltning,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS211,Singapore Managment University,Interaction Design Prototyping,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS212,Singapore Managment University,Software Project Management,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS215,Singapore Managment University,Digital Business,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS216,Singapore Managment University,Web Application Development II,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS217,Singapore Managment University,Analytics Foundation,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS404,Singapore Managment University,Tech Ent Study Mission (Asia),https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS412,Singapore Managment University,Enterprise Business Solutions,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS419,Singapore Managment University,Retail Banking & Mobile Tech,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS423,Singapore Managment University,Financial Mkts Proc & Tech,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS424,Singapore Managment University,Data Mining and Bus. Anal.,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS425,Singapore Managment University,Digital Transformatn Strategy,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS428,Singapore Managment University,Visual Analytics for Bus. Int.,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS430,Singapore Managment University,Digital Payments & Innovation,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS434,Singapore Managment University,Social Analytics and Applns,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS442,Singapore Managment University,Object Oriented Programming,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS444,Singapore Managment University,Digital Bankg Enterprise Archi,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS446,Singapore Managment University,Mging Cust Rlns w ANLY (Asian),https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS452,Singapore Managment University,Blockchain Appl in Fin Svcs,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS453,Singapore Managment University,Financial Analytics,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS455,Singapore Managment University,OPE (IS Techno. in Asia),https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS457,Singapore Managment University,Fairness in Socio-tech Sys,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS458,Singapore Managment University,Cloud Mgmt & Engineering,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS459,Singapore Managment University,Big Data Architecture,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS460,Singapore Managment University,Machine Learning & Applns,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS461,Singapore Managment University,AI Governance,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS483,Singapore Managment University,IS/SMT Proj Exp (Applns),https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS484,Singapore Managment University,IS Project Experience-FinTech,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+IS490,Singapore Managment University,Google Analytics WSE,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+SE101,Singapore Managment University,Operating Systems & Networking,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+SMT113,Singapore Managment University,Sensors and IoT Programming,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+SMT201,Singapore Managment University,GIS for Urban Planning,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+SMT202,Singapore Managment University,Anly Applns for Smart Living,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+SMT203,Singapore Managment University,Computational Social Sci,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
+SMT481,Singapore Managment University,Smart City Operations Research,https://inet.smu.edu.sg/sites/courses/Pages/Course-Offerings.aspx,Sample Description,Computing,,,1,3,4
