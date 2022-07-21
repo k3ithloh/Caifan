@@ -1,4 +1,5 @@
 using Caifan.Models;
+using Korzh.EasyQuery.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -47,7 +48,7 @@ namespace Caifan.Controllers
         
         // Update a Country fields
         [HttpPut]
-        public async Task<ActionResult<List<Country>>> UpdateBasket(Country request)
+        public async Task<ActionResult<List<Country>>> UpdateCountry(Country request)
         {
             var dbCountry = await _context.Countries.FindAsync(request.CountryId);
             if (dbCountry == null)
@@ -72,6 +73,19 @@ namespace Caifan.Controllers
             await _context.SaveChangesAsync();
             
             return Ok(await _context.Countries.ToListAsync());
+        }
+        
+        [HttpGet("search/{text}")]
+        public async Task<ActionResult<List<Country>>> TextSearch(string text)
+        {
+            if (!string.IsNullOrEmpty(text))
+            {
+                return Ok(await _context.Countries.FullTextSearchQuery(text).ToListAsync());
+            }
+            else
+            {
+                return Ok(await _context.Countries.ToListAsync());
+            }
         }
     }
     

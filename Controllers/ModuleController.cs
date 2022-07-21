@@ -1,4 +1,5 @@
 using Caifan.Models;
+using Korzh.EasyQuery.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -79,6 +80,19 @@ namespace Caifan.Controllers
             await _context.SaveChangesAsync();
             
             return Ok(await _context.Modules.ToListAsync());
+        }
+        
+        [HttpGet("search/{text}")]
+        public async Task<ActionResult<List<Module>>> TextSearch(string text)
+        {
+            if (!string.IsNullOrEmpty(text))
+            {
+                return Ok(await _context.Modules.FullTextSearchQuery(text).ToListAsync());
+            }
+            else
+            {
+                return Ok(await _context.Modules.ToListAsync());
+            }
         }
     }
 }
