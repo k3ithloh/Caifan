@@ -58,10 +58,14 @@ namespace Caifan.Controllers
             module.UniversityName = request.UniversityName;
             module.LinkToCourseOutline = request.LinkToCourseOutline;
             module.Description = request.Description;
+            module.Faculty = request.Faculty;
+            module.Year = request.Year;
+            module.Semester = request.Semester;
+            module.Credits = request.Credits;
             module.Difficulty = request.Difficulty;
             module.Popularity = request.Popularity;
-            module.Faculty = request.Faculty;
-            module.Credits = request.Credits;
+            
+            
             
             await _context.SaveChangesAsync();
             
