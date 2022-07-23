@@ -11,12 +11,13 @@ public class University
     }
 
     public University(string universityName, string description, int regionId, string countryId, string address, 
-        string hostUniversityWebsite, int creditTransferRate, string icon = "", int worldRanking = 0, 
+        string hostUniversityWebsite, float creditTransferRate, string icon = "", int worldRanking = 0, 
         string academicCalendar = "", string academicCalendarLink = "", float gpaRequirement = 0, 
         int noOfPlacesSem1 = 0, int noOfPlacesSem2 = 0, float igpaTenPercentile = 0, 
         float igpaNinetyPercentile = 0, bool accommodation = false, bool insurance = false, 
         bool visa = false, string hostUniversityExchangeWebsite = "", string courseCatalogLink = "", 
-        int creditLoadMin = 0, int creditLoadMax = 0, DateTime applicationDeadline = default)
+        float creditLoadMin = 0, float creditLoadMax = 0, DateTime applicationDeadline = default, string img1 = "", string img2 = ""
+        , string img3 = "", string img4 = "", string img5 = "", string img6 = "")
     {
         UniversityName = universityName;
         Icon = icon;
@@ -42,6 +43,12 @@ public class University
         CreditLoadMax = creditLoadMax;
         CreditTransferRate = creditTransferRate;
         ApplicationDeadline = applicationDeadline;
+        Img1 = img1;
+        Img2 = img2;
+        Img3 = img3;
+        Img4 = img4;
+        Img5 = img5;
+        Img6 = img6;
     }
     
     [Key]
@@ -89,13 +96,29 @@ public class University
     
     public string? CourseCatalogLink { get; set; } = string.Empty;
     
-    public int? CreditLoadMin { get; set; }
+    public float? CreditLoadMin { get; set; }
     
-    public int? CreditLoadMax { get; set; }
+    public float? CreditLoadMax { get; set; }
     
-    public int CreditTransferRate { get; set; }
-    
+    public float CreditTransferRate { get; set; }
+
     public DateTime? ApplicationDeadline { get; set; }
+    
+    public string Latitude { get; set; } = string.Empty;
+    
+    public string Longitude { get; set; } = string.Empty;
+    
+    public string? Img1 { get; set; } = string.Empty;
+    
+    public string? Img2 { get; set; } = string.Empty;
+    
+    public string? Img3 { get; set; } = string.Empty;
+
+    public string? Img4 { get; set; } = string.Empty;
+    
+    public string? Img5 { get; set; } = string.Empty;
+    
+    public string? Img6 { get; set; } = string.Empty;
     
     public ICollection<DegreeUniversity>? DegreeUniversities { get; set; }
     

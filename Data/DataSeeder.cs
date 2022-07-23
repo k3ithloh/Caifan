@@ -179,7 +179,7 @@ public class DataSeeder
             
             int worldRanking = Int32.Parse(item["WorldRanking"]);
             int regionId = Int32.Parse(item["RegionId"]);
-            int creditTransferRate = Int32.Parse(item["CreditTransferRate"]);
+            float creditTransferRate = float.Parse(item["CreditTransferRate"]);
             float gpaRequirement = 0;
             int noOfPlacesSem1 = 0;
             int noOfPlacesSem2 = 0;
@@ -188,8 +188,8 @@ public class DataSeeder
             bool accommodation = false;
             bool insurance = false;
             bool visa = false;
-            int creditLoadMin = 0;
-            int creditLoadMax = 0;
+            float creditLoadMin = 0;
+            float creditLoadMax = 0;
             DateTime applicationDeadline = DateTime.Now;
             try
             {
@@ -241,13 +241,13 @@ public class DataSeeder
             
             try
             {
-                creditLoadMin = Int32.Parse(item["CreditLoadMin"]);
+                creditLoadMin = float.Parse(item["CreditLoadMin"]);
             }
             catch(ArgumentNullException){}
             
             try
             {
-                creditLoadMax = Int32.Parse(item["CreditLoadMax"]);
+                creditLoadMax = float.Parse(item["CreditLoadMax"]);
             }
             catch(ArgumentNullException){}
             
@@ -280,7 +280,13 @@ public class DataSeeder
                                     item["CourseCatalogLink"],
                                     creditLoadMin,
                                     creditLoadMax,
-                                    applicationDeadline);
+                                    applicationDeadline,
+                                    item ["img1"],
+                                    item ["img2"],
+                                    item ["img3"],
+                                    item ["img4"],
+                                    item ["img5"],
+                                    item ["img6"]);
             _db.Universities.Add(s);
         }
         _db.SaveChanges();

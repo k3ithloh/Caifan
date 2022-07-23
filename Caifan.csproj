@@ -26,10 +26,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Migrations" />
-    </ItemGroup>
-
-    <ItemGroup>
       <None Remove="index.html" />
     </ItemGroup>
 
@@ -223,5 +219,9 @@
       <_ContentIncludedByDefault Remove="deploy\deploy\deploy\deploy\deploy\deploy\deploy\Data\JsonFiles\TestVersion\Users.json" />
       <_ContentIncludedByDefault Remove="deploy\deploy\deploy\deploy\deploy\deploy\deploy\Data\JsonFiles\Universities.json" />
       <_ContentIncludedByDefault Remove="deploy\deploy\deploy\deploy\deploy\deploy\deploy\Data\JsonFiles\Users.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Migrations" />
     </ItemGroup>
 </Project>
