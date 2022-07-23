@@ -76,6 +76,14 @@ namespace Caifan.Controllers
             dbUniversity.CreditLoadMax = request.CreditLoadMax;
             dbUniversity.CreditTransferRate = request.CreditTransferRate;
             dbUniversity.ApplicationDeadline = request.ApplicationDeadline;
+            dbUniversity.Latitude = request.Latitude;
+            dbUniversity.Longitude = request.Longitude;
+            dbUniversity.Img1 = request.Img1;
+            dbUniversity.Img2 = request.Img2;
+            dbUniversity.Img3 = request.Img3;
+            dbUniversity.Img4 = request.Img4;
+            dbUniversity.Img5 = request.Img5;
+            dbUniversity.Img6 = request.Img6;
 
             await _context.SaveChangesAsync();
             
