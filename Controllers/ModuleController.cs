@@ -59,7 +59,7 @@ namespace Caifan.Controllers
             module.LinkToCourseOutline = request.LinkToCourseOutline;
             module.Description = request.Description;
             module.Faculty = request.Faculty;
-            module.Year = request.Year;
+            module.AY = request.AY;
             module.Semester = request.Semester;
             module.Credits = request.Credits;
             module.Difficulty = request.Difficulty;

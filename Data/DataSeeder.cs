@@ -125,6 +125,10 @@ public class DataSeeder
                 item["ModuleName"],
                 item["Faculty"],
                 credits,
+                item["Semester"],
+                item["AY"],
+                item["Difficulty"],
+                item["Popularity"],
                 item["LinkToCourseOutline"],
                 item["Description"]);
             _db.Modules.Add(s);

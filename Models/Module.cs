@@ -10,7 +10,7 @@ public class Module
     {
     }
 
-    public Module(string moduleId, string universityName, string moduleName, string faculty, int credits,string semester = "", string year = "", string difficulty = "", string popularity = "", string linkToCourseOutline = "", string description = "")
+    public Module(string moduleId, string universityName, string moduleName, string faculty, int credits,string semester = "", string ay = "", string difficulty = "", string popularity = "", string linkToCourseOutline = "", string description = "")
     {
         ModuleId = moduleId; 
         UniversityName = universityName; 
@@ -18,7 +18,7 @@ public class Module
         LinkToCourseOutline = linkToCourseOutline; 
         Description = description;
         Faculty = faculty;
-        Year = year;
+        AY = ay;
         Semester = semester;
         Difficulty = difficulty;
         Popularity = popularity;
@@ -39,7 +39,7 @@ public class Module
     
     public string Faculty { get; set; } = string.Empty;
     
-    public string? Year { get; set; } = string.Empty;
+    public string? AY { get; set; } = string.Empty;
     
     public string? Semester { get; set; } = string.Empty;
     

@@ -14,7 +14,7 @@ public class ModuleMap : BaseMap<Module>
         builder.Property(m => m.ModuleName).IsRequired();
         builder.Property(m => m.LinkToCourseOutline).IsRequired(false);
         builder.Property(m => m.Description).IsRequired(false);
-        builder.Property(m => m.Year).IsRequired(false);
+        builder.Property(m => m.AY).IsRequired(false);
         builder.Property(m => m.Semester).IsRequired(false);
         builder.Property(m => m.Difficulty).IsRequired(false);
         builder.Property(m => m.Popularity).IsRequired(false);
