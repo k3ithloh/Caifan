@@ -25,14 +25,18 @@ namespace Caifan.Controllers
         [HttpGet]
         public async Task<ActionResult<List<Region>>> Get()
         {
-            return Ok(await _context.Regions.ToListAsync());
+            return Ok(await _context.Regions
+                .Include(r=>r.Universities)
+                .ToListAsync());
         }
         
         // Get a Region based on a given Region ID (regionid)
         [HttpGet("{regionid}")]
         public async Task<ActionResult<Region>> Get(int regionid)
         {
-            var region = await _context.Regions.FindAsync(regionid);
+            var region = await _context.Regions
+                .Include(r=>r.Universities)
+                .FirstOrDefaultAsync(r=>r.RegionId == regionid);
             if (region == null)
                 return BadRequest("Region not found.");
             return Ok(region);

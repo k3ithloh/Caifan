@@ -23,8 +23,8 @@ namespace Caifan.Controllers
         public async Task<ActionResult<List<University>>> Get()
         {
             return Ok(await _context.Universities
-                // .Include(u=>u.Modules)
-                // .Include(u=>u.Reviews)
+                .Include(u=>u.Modules)
+                .Include(u=>u.Reviews)
                 .ToListAsync());
         }
         
@@ -33,7 +33,9 @@ namespace Caifan.Controllers
         public async Task<ActionResult<University>> Get(string universityid)
         {
             var university = await _context.Universities
-                .FindAsync(universityid);
+                .Include(u=>u.Modules)
+                .Include(u=>u.Reviews)
+                .FirstOrDefaultAsync(u=>u.UniversityName == universityid);
             if (university == null)
                 return BadRequest("University not found.");
             return Ok(university);
