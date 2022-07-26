@@ -20,14 +20,20 @@ namespace Caifan.Controllers
         [HttpGet]
         public async Task<ActionResult<List<User>>> Get()
         {
-            return Ok(await _context.Users.ToListAsync());
+            return Ok(await _context.Users
+                .Include(u=>u.Reviews)
+                .Include(u=>u.DegreeUsers)
+                .ToListAsync());
         }
         
         // Get a User based on a given User ID (uid)
         [HttpGet("{uid}")]
         public async Task<ActionResult<List<User>>> Get(int uid)
         {
-            var user = await _context.Users.FindAsync(uid);
+            var user = await _context.Users
+                .Include(u=>u.Reviews)
+                .Include(u=>u.DegreeUsers)
+                .FirstOrDefaultAsync(u=>u.UserId == uid);
             if (user == null)
                 return BadRequest("User not found.");
             return Ok(user);

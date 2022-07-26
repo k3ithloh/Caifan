@@ -23,14 +23,21 @@ namespace Caifan.Controllers
         [HttpGet]
         public async Task<ActionResult<List<Degree>>> Get()
         {
-            return Ok(await _context.Degrees.ToListAsync());
+            return Ok(await _context.Degrees
+                .Include(d=>d.DegreeUniversities)
+                .Include(d=>d.DegreeUsers)
+                .ToListAsync());
         }
         
         // Get a Degree based on a given Degree ID (bid)
         [HttpGet("{degreeid}")]
         public async Task<ActionResult<Degree>> Get(string degreeid)
         {
-            var degree = await _context.Degrees.FindAsync(degreeid);
+            var degree = await _context.Degrees
+                .Include(d=>d.DegreeUniversities)
+                .Include(d=>d.DegreeUsers)
+                .FirstOrDefaultAsync(d => d.DegreeId == degreeid);
+
             if (degree == null)
                 return BadRequest("Major not found.");
             return Ok(degree);

@@ -23,14 +23,18 @@ namespace Caifan.Controllers
         [HttpGet]
         public async Task<ActionResult<List<Country>>> Get()
         {
-            return Ok(await _context.Countries.ToListAsync());
+            return Ok(await _context.Countries
+                .Include(c=>c.Universities)
+                .ToListAsync());
         }
         
         // Get a Country based on a given Country ID (cid)
         [HttpGet("{countryid}")]
         public async Task<ActionResult<Country>> Get(string countryid)
         {
-            var country = await _context.Countries.FindAsync(countryid);
+            var country = await _context.Countries
+                .Include(c=>c.Universities)
+                .FirstOrDefaultAsync(c=>c.CountryId == countryid);
             if (country == null)
                 return BadRequest("Country not found.");
             return Ok(country);

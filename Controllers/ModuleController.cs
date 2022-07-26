@@ -23,7 +23,7 @@ namespace Caifan.Controllers
         public async Task<ActionResult<List<Module>>> Get()
         {
             return Ok(await _context.Modules
-                // .Include(m=>m.BasketModules)
+                .Include(m=>m.BasketModules)
                 .ToListAsync());
         }
         
@@ -31,7 +31,9 @@ namespace Caifan.Controllers
         [HttpGet("{mid}")]
         public async Task<ActionResult<List<Module>>> Get(string mid)
         {
-            var module = await _context.Modules.FindAsync(mid);
+            var module = await _context.Modules
+                .Include(m=>m.BasketModules)
+                .FirstOrDefaultAsync(m=>m.ModuleId == mid);
             if (module == null)
                 return BadRequest("Module not found.");
             return Ok(module);
