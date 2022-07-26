@@ -22,7 +22,9 @@ namespace Caifan.Controllers
         [HttpGet]
         public async Task<ActionResult<List<Basket>>> Get()
         {
-            return Ok(await _context.Baskets.ToListAsync());
+            return Ok(await _context.Baskets
+                // .Include(b=>b.BasketModules)
+                .ToListAsync());
         }
         
         

@@ -64,3 +64,22 @@ Version label will be automatically generated, no need to change. Then click ```
   
 Deployment takes around 1-3 mins. After deployment is completed, ensure that Health Status is ```Ok```. You may click the ```Go to Environment``` on the left navbar to access the landing page of our application. 
 
+Appsettings Guide
+-----------
+Set up your AppSettings.json file.
+```json
+{
+   "Logging": {
+      "LogLevel": {
+         "Default": "Information",
+         "Microsoft.AspNetCore": "Warning"
+      }
+   },
+   "AllowedHosts": "*",
+
+   "ConnectionStrings": {
+      "DefaultConnection": "Server=localhost;Port=5432;Username=:username;Password=:password;Database=:db"
+   }
+}
+
+```

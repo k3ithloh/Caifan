@@ -2826,5 +2826,61 @@
   {
     "BasketId": "38",
     "ModuleId": "SMT481"
+  },
+  {
+    "BasketId": "38",
+    "ModuleId": "BBDAINT1KU"
+  },
+  {
+    "BasketId": "38",
+    "ModuleId": "KSDAMIN1KU"
+  },
+  {
+    "BasketId": "38",
+    "ModuleId": "BSINARI1KU"
+  },
+  {
+    "BasketId": "38",
+    "ModuleId": "KSSECU11KU"
+  },
+  {
+    "BasketId": "38",
+    "ModuleId": "82721"
+  },
+  {
+    "BasketId": "38",
+    "ModuleId": "83801"
+  },
+  {
+    "BasketId": "38",
+    "ModuleId": "87891"
+  },
+  {
+    "BasketId": "38",
+    "ModuleId": "DD2352"
+  },
+  {
+    "BasketId": "38",
+    "ModuleId": "DM2583"
+  },
+  {
+    "BasketId": "38",
+    "ModuleId": "DD2424"
+  },
+  {
+    "BasketId": "38",
+    "ModuleId": "DD2448"
+  },
+  {
+    "BasketId": "38",
+    "ModuleId": "W3014"
+  },
+  {
+    "BasketId": "38",
+    "ModuleId": "WS151"
+  },
+  {
+    "BasketId": "38",
+    "ModuleId": "WS254"
   }
 ]

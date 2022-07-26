@@ -22,14 +22,18 @@ namespace Caifan.Controllers
         [HttpGet]
         public async Task<ActionResult<List<University>>> Get()
         {
-            return Ok(await _context.Universities.ToListAsync());
+            return Ok(await _context.Universities
+                // .Include(u=>u.Modules)
+                // .Include(u=>u.Reviews)
+                .ToListAsync());
         }
         
         //This is to get a single row out
         [HttpGet("{universityid}")]
         public async Task<ActionResult<University>> Get(string universityid)
         {
-            var university = await _context.Universities.FindAsync(universityid);
+            var university = await _context.Universities
+                .FindAsync(universityid);
             if (university == null)
                 return BadRequest("University not found.");
             return Ok(university);
