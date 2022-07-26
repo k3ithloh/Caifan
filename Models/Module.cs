@@ -10,7 +10,7 @@ public class Module
     {
     }
 
-    public Module(string moduleId, string universityName, string moduleName, string faculty, int credits,string semester = "", string ay = "", string difficulty = "", string popularity = "", string linkToCourseOutline = "", string description = "")
+    public Module(string moduleId, string universityName, string moduleName, string faculty, float credits,string semester = "", string ay = "", string difficulty = "", string popularity = "", string linkToCourseOutline = "", string description = "")
     {
         ModuleId = moduleId; 
         UniversityName = universityName; 
@@ -49,7 +49,7 @@ public class Module
     public string? Popularity { get; set; } = string.Empty;
 
     
-    public int Credits { get; set; }
+    public float Credits { get; set; }
     
     public virtual University University { get; set; }
     public ICollection<BasketModule>? BasketModules { get; set; }

@@ -119,7 +119,7 @@ public class DataSeeder
         var items = JsonSerializer.Deserialize<List<Dictionary<string, string>>>(data);
         foreach (var item in items)
         {
-            int credits = Int32.Parse(item["Credits"]);
+            float credits = float.Parse(item["Credits"]);
             var s = new Module(item["ModuleId"],
                 item["UniversityName"],
                 item["ModuleName"],

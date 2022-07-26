@@ -22,7 +22,9 @@ namespace Caifan.Controllers
         [HttpGet]
         public async Task<ActionResult<List<Module>>> Get()
         {
-            return Ok(await _context.Modules.ToListAsync());
+            return Ok(await _context.Modules
+                // .Include(m=>m.BasketModules)
+                .ToListAsync());
         }
         
         // Get a Module based on a given Module ID (mid)

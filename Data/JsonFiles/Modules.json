@@ -9244,7 +9244,7 @@
   },
   {
     "ModuleId": "82721",
-    "UniversityName": "University of St Gallen",
+    "UniversityName": "University of St. Gallen",
     "ModuleName": "Big Data Analytics",
     "LinkToCourseOutline": "https://tools.unisg.ch/handlers/Public/CourseInformationSheet.ashx/semester/FS22/eventnumber/8,272,1.00.pdf",
     "Description": "This course introduces students to the concept of Big Data in the context of empirical economic research. Students learn about the\ncomputational constraints underlying Big Data Analytics and how to handle them in the statistical computing environment R\n(local and in the cloud). Revisiting basic statistical/econometric concepts, we look at each step of dealing with large data sets in\nempirical economic research (storage/import, transformation, visualization, aggregation).",
@@ -9257,7 +9257,7 @@
   },
   {
     "ModuleId": "83801",
-    "UniversityName": "University of St Gallen",
+    "UniversityName": "University of St. Gallen",
     "ModuleName": "Skills: Advanced Programming for Quantitative Analysis",
     "LinkToCourseOutline": "",
     "Description": "This course focuses on extracting content and producing inferences from texts by means of quantitative analysis. The course\ntakes a practical approach in order to provide students with the necessary skills to critically assess and apply different methods\nand techniques in their own research projects. The first part of the course covers the collection and processing of political, legal,\nnewspaper and social media texts, as well as research design considerations. The second part of the course introduces various\nmethods to quantitatively extract meaning from texts, ranging from traditional content analysis ʺby handʺ to machine learning.\nRecent applications of quantitative text analysis in the social sciences will be critically discussed throughout the course.",
@@ -9270,7 +9270,7 @@
   },
   {
     "ModuleId": "87891",
-    "UniversityName": "University of St Gallen",
+    "UniversityName": "University of St. Gallen",
     "ModuleName": "Skills: Programming with Advanced Computer Languages",
     "LinkToCourseOutline": "https://tools.unisg.ch/handlers/Public/CourseInformationSheet.ashx/semester/FS22/eventnumber/8,789,1.00.pdf",
     "Description": "Programming: Advanced level is a course for students with little or no programming experience. It aims to provide students\nwith an understanding of the role that programming language can play in solving problems and to help students, regardless of\ntheir level, feel justifiably confident of their ability to code various simple and advanced tasks.\nStudents will be able to chose any of the nine offered programming languages (Visual Basic .NET, Ruby, JavaScript, PHP, Python\n3, C Sharp, C, C++, Java).\nEntire course will be managed through an innovative online learning platform where students will start coding at their own\npace. Initial kick off session will take place at the beginning of course explaining all mechanics.\nCourse will offer meaningful engagement, motivation, flexibility, availability, presence, collaboration, and sense of community\nthrough an innovative online gamified learning platform.",
