@@ -27,7 +27,6 @@ public class DegreeUser
     public bool Primary { get; set; }
     
     public User User { get; set; }
-    
 
     public Degree Degree { get; set; }
 }

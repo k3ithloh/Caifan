@@ -41,17 +41,3 @@ public class Review
     
     public virtual User User { get; set; }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
