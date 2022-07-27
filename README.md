@@ -2,6 +2,8 @@
 
 University Exchange for Students
 
+Live @ http://caifan.ap-southeast-1.elasticbeanstalk.com/git s
+
 Requirements
 -----------
 - C#
