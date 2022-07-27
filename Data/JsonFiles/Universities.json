@@ -605,11 +605,11 @@
    "Latitude": "39.9583587",
    "Longitude": "-75.1953934",
    "img1": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfPennsylvania/1.webp",
-   "img2": "",
-   "img3": "",
-   "img4": "",
-   "img5": "",
-   "img6": ""
+   "img2": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfPennsylvania/2.jpeg",
+   "img3": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfPennsylvania/3.jpeg",
+   "img4": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfPennsylvania/4.webp",
+   "img5": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfPennsylvania/5.jpeg",
+   "img6": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfPennsylvania/6.jpeg"
  },
  {
    "UniversityName": "University of Southern California (Marshall School of Business)",
@@ -639,11 +639,11 @@
    "Latitude": "34.0188316",
    "Longitude": "-118.2857381",
    "img1": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfSouthernCalifornia(MarshallSchoolOfBusiness)/1.jpeg",
-   "img2": "",
-   "img3": "",
-   "img4": "",
-   "img5": "",
-   "img6": ""
+   "img2": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfSouthernCalifornia(MarshallSchoolOfBusiness)/2.jpeg",
+   "img3": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfSouthernCalifornia(MarshallSchoolOfBusiness)/3.jpeg",
+   "img4": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfSouthernCalifornia(MarshallSchoolOfBusiness)/4.jpeg",
+   "img5": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfSouthernCalifornia(MarshallSchoolOfBusiness)/5.jpeg",
+   "img6": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfSouthernCalifornia(MarshallSchoolOfBusiness)/6.jpeg"
  },
  {
    "UniversityName": "University of Bath",
@@ -673,11 +673,11 @@
    "Latitude": "51.3793241",
    "Longitude": "-2.3271573",
    "img1": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfBath/1.jpeg",
-   "img2": "",
-   "img3": "",
-   "img4": "",
-   "img5": "",
-   "img6": ""
+   "img2": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfBath/2.jpeg",
+   "img3": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfBath/3.jpeg",
+   "img4": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfBath/4.jpeg",
+   "img5": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfBath/5.jpeg",
+   "img6": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfBath/6.jpeg"
  },
  {
    "UniversityName": "Trinity College Dublin",
@@ -707,11 +707,11 @@
    "Latitude": "53.3444923",
    "Longitude": "-6.2611326",
    "img1": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/TrinityCollegeDublin/1.jpeg",
-   "img2": "",
-   "img3": "",
-   "img4": "",
-   "img5": "",
-   "img6": ""
+   "img2": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/TrinityCollegeDublin/2.jpeg",
+   "img3": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/TrinityCollegeDublin/3.jpeg",
+   "img4": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/TrinityCollegeDublin/4.jpeg",
+   "img5": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/TrinityCollegeDublin/5.jpeg",
+   "img6": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/TrinityCollegeDublin/6.jpeg"
  },
  {
    "UniversityName": "University of St. Gallen",
@@ -741,11 +741,11 @@
    "Latitude": "47.4312345",
    "Longitude": "9.3740597",
    "img1": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfStGallen/1.jpeg",
-   "img2": "",
-   "img3": "",
-   "img4": "",
-   "img5": "",
-   "img6": ""
+   "img2": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfStGallen/2.jpeg",
+   "img3": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfStGallen/3.jpeg",
+   "img4": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfStGallen/4.jpeg",
+   "img5": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfStGallen/5.jpeg",
+   "img6": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfStGallen/6.jpeg"
  },
  {
    "UniversityName": "University College London, School of Management",
@@ -775,11 +775,11 @@
    "Latitude": "51.5049489",
    "Longitude": "-0.0195006",
    "img1": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityCollegeLondonSchoolOfManagement/1.png",
-   "img2": "",
-   "img3": "",
-   "img4": "",
-   "img5": "",
-   "img6": ""
+   "img2": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityCollegeLondonSchoolOfManagement/2.jpeg",
+   "img3": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityCollegeLondonSchoolOfManagement/3.jpeg",
+   "img4": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityCollegeLondonSchoolOfManagement/4.jpeg",
+   "img5": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityCollegeLondonSchoolOfManagement/5.jpeg",
+   "img6": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityCollegeLondonSchoolOfManagement/6.png"
  },
   {
     "UniversityName": "IT University of Copenhagen",
@@ -808,12 +808,12 @@
     "ApplicationDeadline": null,
     "Latitude": "55.6597",
     "Longitude": "12.5915",
-    "img1": "",
-    "img2": "",
-    "img3": "",
-    "img4": "",
-    "img5": "",
-    "img6": ""
+    "img1": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/ITUniversityOfCopenhagen/1.jpeg",
+    "img2": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/ITUniversityOfCopenhagen/2.jpeg",
+    "img3": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/ITUniversityOfCopenhagen/3.jpeg",
+    "img4": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/ITUniversityOfCopenhagen/4.jpeg",
+    "img5": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/ITUniversityOfCopenhagen/5.jpeg",
+    "img6": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/ITUniversityOfCopenhagen/6.jpg"
   },
   {
     "UniversityName": "University of Glasgow",
@@ -842,12 +842,12 @@
     "ApplicationDeadline": null,
     "Latitude": "55.8717",
     "Longitude": "4.2883",
-    "img1": "",
-    "img2": "",
-    "img3": "",
-    "img4": "",
-    "img5": "",
-    "img6": ""
+    "img1": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfGlasgow/1.jpeg",
+    "img2": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfGlasgow/2.jpeg",
+    "img3": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfGlasgow/3.jpeg",
+    "img4": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfGlasgow/4.jpeg",
+    "img5": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfGlasgow/5.jpeg",
+    "img6": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/UniversityOfGlasgow/6.jpeg"
   },
   {
     "UniversityName": "KTH Royal Institute of Technology",
@@ -876,11 +876,11 @@
     "ApplicationDeadline": null,
     "Latitude": "59.3499",
     "Longitude": "18.0703",
-    "img1": "",
-    "img2": "",
-    "img3": "",
-    "img4": "",
-    "img5": "",
-    "img6": ""
+    "img1": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/KTHRoyalInstituteOfTechnology/1.jpeg",
+    "img2": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/KTHRoyalInstituteOfTechnology/2.jpeg",
+    "img3": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/KTHRoyalInstituteOfTechnology/3.jpeg",
+    "img4": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/KTHRoyalInstituteOfTechnology/4.jpg",
+    "img5": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/KTHRoyalInstituteOfTechnology/5.jpg",
+    "img6": "https://caifan.s3.ap-southeast-1.amazonaws.com/UniversityPics/KTHRoyalInstituteOfTechnology/6.jpeg"
   }
 ]
