@@ -122,6 +122,24 @@ namespace Caifan.Controllers
                 return Ok(await _context.Universities.ToListAsync());
             }
         }
+        
+        [HttpGet("university/rating/{uniname}")]
+        public async Task<ActionResult<float>> AvgRating(string uniname)
+        {
+            if (!string.IsNullOrEmpty(uniname))
+            {
+                var reviews = await _context.Reviews.Where(r => r.UniversityName == uniname).ToListAsync();
+                float ratings = 0;
+                float count = 0;
+                foreach(var review in reviews)
+                {
+                    count += 1;
+                    ratings += review.Rating;
+                }
+                return Ok(ratings / count);
+            }
+            return Ok(0);
+        }
     }
     
 }
