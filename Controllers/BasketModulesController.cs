@@ -38,16 +38,6 @@ namespace Caifan.Controllers
             return Ok(basketmodule);
         }
         
-        // Get a BasketModule based on a Basket ID (bid)
-        // [HttpGet("{bid}")]
-        // public async Task<ActionResult<List<BasketModule>>> Get(int bid)
-        // {
-        //     var basketmodule = await _context.BasketModules.FindAsync(bid);
-        //     if (basketmodule == null)
-        //         return BadRequest("BasketModule not found.");
-        //     return Ok(basketmodule);
-        // }
-        
         [HttpGet("search/{text}")]
         public async Task<ActionResult<List<BasketModule>>> TextSearch(string text)
         {

@@ -54,14 +54,3 @@ public class Module
     public virtual University University { get; set; }
     public ICollection<BasketModule>? BasketModules { get; set; }
 }
-
-
-
-
-
-
-
-
-
-
-
