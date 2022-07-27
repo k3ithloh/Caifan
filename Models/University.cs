@@ -16,7 +16,7 @@ public class University
         int noOfPlacesSem1 = 0, int noOfPlacesSem2 = 0, float igpaTenPercentile = 0, 
         float igpaNinetyPercentile = 0, bool accommodation = false, bool insurance = false, 
         bool visa = false, string hostUniversityExchangeWebsite = "", string courseCatalogLink = "", 
-        float creditLoadMin = 0, float creditLoadMax = 0, DateTime applicationDeadline = default, string img1 = "", string img2 = ""
+        float creditLoadMin = 0, float creditLoadMax = 0, DateTime applicationDeadline = default, string latitude = "", string longitude = "", string img1 = "", string img2 = ""
         , string img3 = "", string img4 = "", string img5 = "", string img6 = "")
     {
         UniversityName = universityName;
@@ -43,6 +43,8 @@ public class University
         CreditLoadMax = creditLoadMax;
         CreditTransferRate = creditTransferRate;
         ApplicationDeadline = applicationDeadline;
+        Latitude = latitude;
+        Longitude = longitude;
         Img1 = img1;
         Img2 = img2;
         Img3 = img3;

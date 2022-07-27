@@ -281,6 +281,8 @@ public class DataSeeder
                                     creditLoadMin,
                                     creditLoadMax,
                                     applicationDeadline,
+                                    item["Latitude"],
+                                    item ["Longitude"],
                                     item ["img1"],
                                     item ["img2"],
                                     item ["img3"],
